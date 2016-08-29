@@ -189,7 +189,7 @@
          {@}
        </div>
      {.end}
- 
+          
        {@|product-checkout}
  
        <div class="product-sharing">{@|social-button-inline}</div>
