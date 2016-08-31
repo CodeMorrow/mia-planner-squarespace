@@ -4410,9 +4410,14 @@ window.addEventListener("load", function(){
 
 	//Fields that can manipulate
 		//Dashboard Images
-		var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");		
+		var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");
+		var section1Text = document.getElementById("text-yui_3_17_2_1_1472435255832_55878");
 		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_65955");
-		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_97902");	
+		var section2Text = document.getElementById("text-yui_3_17_2_1_1472435255832_88708");
+		var section2Text1 = document.getElementById("text-yui_3_17_2_1_1472485429201_232985");
+		var section2Text2 = document.getElementById("text-yui_3_17_2_1_1472485429201_245413");
+		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_97902");
+		var section3Text = document.getElementById("text-yui_3_17_2_1_1472485429201_249874");	
 		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_258649");
 		//Weekday Images
 		var overview = document.getElementById("select-yui_3_17_2_1_1472485429201_298743");
@@ -4459,6 +4464,14 @@ window.addEventListener("load", function(){
 			}
 	});
 
+	section1Text.addEventListener("mouseover", function(){
+		dashSection1.style.outline = "solid 2px red";
+	});
+
+	section1Text.addEventListener("mouseout", function(){
+		dashSection1.style.outline = "none";
+	});
+
 	section1Symbol.addEventListener("mouseover", function(){
 		dashSection1.style.outline = "solid 2px red";
 	});
@@ -4480,6 +4493,30 @@ window.addEventListener("load", function(){
 		}
 	});
 
+	section2Text.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
+
+	section2Text.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
+
+	section2Text1.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
+
+	section2Text1.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
+
+	section2Text2.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
+
+	section2Text2.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
+
 	section2Symbol.addEventListener("mouseover", function(){
 		dashSection2.style.outline = "solid 2px red";
 	});
@@ -4497,6 +4534,14 @@ window.addEventListener("load", function(){
 		} else if (i === "Bullets") {
 			dashSection2.src = "../assets/images/hughes/dashSection2/bullets.png";
 		} 
+	});
+
+	section3Text.addEventListener("mouseover", function(){
+		dashSection3.style.outline = "solid 2px red";
+	});
+
+	section3Text.addEventListener("mouseout", function(){
+		dashSection3.style.outline = "none";
 	});
 
 	section3Symbol.addEventListener("mouseover", function(){
