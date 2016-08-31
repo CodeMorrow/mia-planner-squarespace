@@ -4372,3 +4372,41 @@
 
 /***/ }
 /******/ ]);
+
+// ####################### Custom JS
+
+window.addEventListener("load", function(){
+
+	var dashQuote = document.getElementById("dashQuote");
+	var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");
+	var quoteValue = quote.children[1];
+
+
+	quote.addEventListener("mouseover", function(){
+		dashQuote.style.outline = "solid 2px red";
+	});
+
+	quote.addEventListener("mouseout", function(){
+		dashQuote.style.outline = "none";
+	});
+
+	quote.addEventListener('change', function(){
+
+		var i = quoteValue.options[quoteValue.selectedIndex].value;
+			if (i === "Yes: Blank") {
+				dashQuote.src = "../assets/images/hughes/quote/yesBlank.png";	
+			} else if (i === "Yes: Pre-filled (All Quotes)") {
+				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
+			} else if (i === "Yes: Pre-filled (1/2 Verses)") {
+				dashQuote.src = "../assets/images/hughes/quote/yesHalf.png";
+			} else if (i === "No: 3 Blank Lines") {
+				dashQuote.src = "../assets/images/hughes/quote/noLines.png";
+			}
+	});
+
+	
+
+});
+
+
+
