@@ -22,12 +22,13 @@
            {.image?}
 
            <div>
-           	<div class="dynamicPreviewClasses planner">
+           	<!-- ############################ Planner ################################ -->
+  <div class="dynamicPreviewClasses planner">
 
     <div class="dynamicPreviewClasses hughes__left">
 
       <div class="dynamicPreviewClasses headerLeft">
-        <img class="dynamicPreviewClasses" src="../assets/images/hughes/headerLeft.png" width="360" height="17.34">
+        <img class="dynamicPreviewClasses" src="../assets/images/hughes/headerLeft.png" width="385" height="18.48">
       </div>
 
       <div class="dynamicPreviewClasses contentLeft">
@@ -36,29 +37,29 @@
 
           <div class="dynamicPreviewClasses hughes__dashboardQuote">
           <!-- Dashboard Quote Image goes here -->
-          
-            <img class="dynamicPreviewClasses" id="dashQuote" src="../assets/images/hughes/quote/yesBlank.png" width="90" height="82.32">
+
+            <img class="dynamicPreviewClasses" id="dashQuote" src="../assets/images/hughes/quote/yesBlank.png" width="96.25" height="87.75">
 
           </div>
 
           <div class="dynamicPreviewClasses hughes__dashboardSection1">
           <!-- Dashboard Section 1 Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="dashSection1" src="../assets/images/hughes/dashSection1/none.png" width="90" height="52">
+            <img class="dynamicPreviewClasses" id="dashSection1" src="../assets/images/hughes/dashSection1/none.png" width="96.25" height="55.42">
 
           </div>
 
           <div class="dynamicPreviewClasses hughes__dashboardSection2">
           <!-- Dashboard Section 2 Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="dashSection2" src="../assets/images/hughes/dashSection2/checkboxes.png" width="90" height="181.98">
+            <img class="dynamicPreviewClasses" id="dashSection2" src="../assets/images/hughes/dashSection2/checkboxes.png" width="96.25" height="193.98">
 
           </div>
 
           <div class="dynamicPreviewClasses hughes__dashboardSection3">
           <!-- Dashboard Section 3 Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="dashSection3" src="../assets/images/hughes/dashSection3/none.png" width="90" height="121.36">
+            <img class="dynamicPreviewClasses" id="dashSection3" src="../assets/images/hughes/dashSection3/none.png" width="96.25" height="129.37">
 
           </div>
 
@@ -69,14 +70,14 @@
           <div class="dynamicPreviewClasses hughes__dailyLeftHeader">
           <!-- Left side daily header Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="weekdayHeaderL" src="../assets/images/hughes/dailyHeaderLeft/none.png" width="270" height="56.33">
+            <img class="dynamicPreviewClasses" id="weekdayHeaderL" src="../assets/images/hughes/dailyHeaderLeft/none.png" width="288.75" height="60.04">
 
           </div>
 
           <div class="dynamicPreviewClasses hughes__dailyLeftSchedule">
           <!-- Left side daily schedule Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="weekdayScheduleL" src="../assets/images/hughes/dailyScheduleLeft/31.png" width="270" height="381.33">
+            <img class="dynamicPreviewClasses" id="weekdayScheduleL" src="../assets/images/hughes/dailyScheduleLeft/31.png" width="288.75" height="406.48">
 
           </div>
         </div>
@@ -86,7 +87,7 @@
     <div class="dynamicPreviewClasses hughes__right">
 
       <div class="dynamicPreviewClasses headerRight">
-        <img class="dynamicPreviewClasses" src="../assets/images/hughes/headerRight.png" width="360" height="17.34">
+        <img class="dynamicPreviewClasses" src="../assets/images/hughes/headerRight.png" width="385" height="18.48">
       </div>
 
       <div class="dynamicPreviewClasses contentRight">  
@@ -95,14 +96,14 @@
           <div class="dynamicPreviewClasses hughes__dailyRightHeader">
           <!-- Right side daily header Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="weekdayHeaderR" src="../assets/images/hughes/dailyHeaderRight/none.png" width="180" height="56.33">
+            <img class="dynamicPreviewClasses" id="weekdayHeaderR" src="../assets/images/hughes/dailyHeaderRight/none.png" width="192.5" height="60.04">
 
           </div>
 
           <div class="dynamicPreviewClasses hughes__dailyRightSchedule">
           <!-- Right side daily schedule Image goes here -->
 
-            <img class="dynamicPreviewClasses" id="weekdayScheduleR" src="../assets/images/hughes/dailyScheduleRight/31.png" width="180" height="381.33">
+            <img class="dynamicPreviewClasses" id="weekdayScheduleR" src="../assets/images/hughes/dailyScheduleRight/31.png" width="192.5" height="406.48">
 
           </div>
         </div>
@@ -111,12 +112,12 @@
           
           <div id="weekendFullHeaderDiv" class="dynamicPreviewClasses hughes__fullWeekendHeader">
             <!-- full weekend header Image goes here -->
-            <img class="dynamicPreviewClasses" id="weekendHeaderFull" src="../assets/images/hughes/dailyHeaderRight/none.png" width="180" height="56.33">
+            <img class="dynamicPreviewClasses" id="weekendHeaderFull" src="../assets/images/hughes/dailyHeaderRight/none.png" width="192.5" height="60.04">
           </div>
 
           <div id="weekendFullScheduleDiv" class="dynamicPreviewClasses hughes__fullWeekendSchedule">
             <!-- full weekend schedule Image goes here -->
-            <img class="dynamicPreviewClasses" id="weekendScheduleFull" src="../assets/images/hughes/dailyScheduleRight/31.png" width="180" height="381.33">
+            <img class="dynamicPreviewClasses" id="weekendScheduleFull" src="../assets/images/hughes/dailyScheduleRight/31.png" width="192.5" height="406.48">
           </div>
           
 
@@ -126,30 +127,30 @@
             <div id="weekend34HeaderDiv" class="dynamicPreviewClasses hughes__3-4weekendHeader">
               <!-- 3/4 or 1/2 weekend header Image goes here -->
 
-                <img class="dynamicPreviewClasses" id="weekendHeader34" src="../assets/images/hughes/weekendHeader3-4/none.png" width="180" height="35.18">
+                <img class="dynamicPreviewClasses" id="weekendHeader34" src="../assets/images/hughes/weekendHeader3-4/none.png" width="192.5" height="37.50">
 
             </div>
 
             <div id="weekend34ScheduleDiv" class="dynamicPreviewClasses hughes__3-4weekendSchedule">
               <!-- 3/4 weekend schedule Image goes here -->
 
-                <img class="dynamicPreviewClasses" id="weekendSchedule34" src="../assets/images/hughes/weekendSchedule3-4/31.png" width="180" height="259.49">
+                <img class="dynamicPreviewClasses" id="weekendSchedule34" src="../assets/images/hughes/weekendSchedule3-4/31.png" width="192.5" height="276.61">
 
 
               <div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses hughes__1-2weekendSchedule">
                 <!-- 1/2 weekend schedule Image goes here -->
-                <img class="dynamicPreviewClasses" id="weekendSchedule12" src="../assets/images/hughes/weekendSchedule1-2/31.png" width="180" height="129.73">
+                <img class="dynamicPreviewClasses" id="weekendSchedule12" src="../assets/images/hughes/weekendSchedule1-2/31.png" width="192.5" height="138.31">
               </div>
 
               <div id="weekend12ColumnsDiv" class="dynamicPreviewClasses hughes__1-2columns">
                 <div class="dynamicPreviewClasses hughes__1-2columnLeft" id="hughes__1-2columnLeft">
                   <!-- 1/2 weekend left column Image goes here -->
-                  <img class="dynamicPreviewClasses" id="weekend12ColumnL" src="../assets/images/hughes/weekendColumn1-2/bullets.png" width="90" height="129.73">
+                  <img class="dynamicPreviewClasses" id="weekend12ColumnL" src="../assets/images/hughes/weekendColumn1-2/bullets.png" width="96.25" height="138.31">
                 </div>
 
                 <div class="dynamicPreviewClasses hughes__1-2columnRight" id="hughes__1-2columnRight">
                   <!-- 1/2 weekend right column Image goes here -->
-                  <img class="dynamicPreviewClasses" id="weekend12ColumnR" src="../assets/images/hughes/weekendColumn1-2/reflection.png" width="90" height="129.73">
+                  <img class="dynamicPreviewClasses" id="weekend12ColumnR" src="../assets/images/hughes/weekendColumn1-2/reflection.png" width="96.25" height="138.31">
                 </div>
               </div>
               
@@ -160,7 +161,7 @@
           <div id="weekendNoteDiv" class="dynamicPreviewClasses hughes__weekendNote">
             <!-- 3/4 or 1/2 weekend notes Image goes here -->
 
-              <img class="dynamicPreviewClasses" id="weekendNote" src="../assets/images/hughes/weekendNotes/lined.png" width="180" height="142.98">
+              <img class="dynamicPreviewClasses" id="weekendNote" src="../assets/images/hughes/weekendNotes/lined.png" width="192.5" height="152.41">
 
           </div>
         </div>

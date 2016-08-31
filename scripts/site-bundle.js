@@ -4602,25 +4602,21 @@ window.addEventListener("load", function(){
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/none.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/none.png";
 			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/none.png";
-			
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/none.png";
 		} else if (i === "Bullets") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/bullets.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
 			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/bullets.png";
-			
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
 		} else if (i === "Checkboxes") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/checkboxes.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
 			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/checkboxes.png";
-			
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
 		} else if (i === "Sun-Mon") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/week.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/week.png";
 			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/week.png";
-			
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/week.png";
 		}
 	});
