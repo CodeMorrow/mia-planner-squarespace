@@ -4377,9 +4377,57 @@
 
 window.addEventListener("load", function(){
 
-	var dashQuote = document.getElementById("dashQuote");
-	var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");
-	var quoteValue = quote.children[1];
+	//Planner image manipulation operations
+	//Images to be manipulated
+		var dashQuote = document.getElementById("dashQuote");
+		var dashSection1 = document.getElementById("dashSection1");
+		var dashSection2 = document.getElementById("dashSection2");
+		var dashSection3 = document.getElementById("dashSection3");
+		var weekdayHeaderR = document.getElementById("weekdayHeaderR");
+		var weekdayHeaderL = document.getElementById("weekdayHeaderL");
+		var weekdayScheduleR = document.getElementById("weekdayScheduleR");
+		var weekdayScheduleL = document.getElementById("weekdayScheduleL");
+		var weekendHeaderFull = document.getElementById("weekendHeaderFull");
+		var weekendHeader3412 = document.getElementById("weekendHeader34");
+		var weekendScheduleFull = document.getElementById("weekendScheduleFull");
+		var weekendSchedule34 = document.getElementById("weekendSchedule34");
+		var weekendSchedule12 = document.getElementById("weekendSchedule12");
+		var weekend12ColumnL = document.getElementById("weekend12ColumnL");
+		var weekend12ColumnR = document.getElementById("weekend12ColumnR");
+		var weekendNote = document.getElementById("weekendNote");
+	//Divs to be manipulated
+		var weekendFullHeaderDiv = document.getElementById("weekendFullHeaderDiv");
+		var weekendFullScheduleDiv = document.getElementById("weekendFullScheduleDiv");
+		var weekend3412HeaderDiv = document.getElementById("weekend34HeaderDiv");
+		var weekend34ScheduleDiv = document.getElementById("weekend34ScheduleDiv");
+		var weekend12ScheduleDiv = document.getElementById("weekend12ScheduleDiv");
+		var weekend12ColumnsDiv = document.getElementById("weekend12ColumnsDiv");	
+		var weekendDiv = document.getElementById("weekendDiv");
+		var weekendNoteDiv = document.getElementById("weekendNoteDiv");
+		var weekendColumns = document.getElementById("weekendColumns");
+		var weekendSticky = document.getElementById("weekendSticky");
+		var weekendStickyTitle = document.getElementById("weekendStickyTitle");
+
+	//Fields that can manipulate
+		//Dashboard Images
+		var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");		
+		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_65955");
+		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_97902");	
+		var section3Symbol = document.getElementById("section3Symbol");
+		//Weekday Images
+		var overview = document.getElementById("overview");
+		var header1Symbol = document.getElementById("header1Symbol");
+		var schedule = document.getElementById("schedule");
+		//Weekend Images
+		var weekendStyle = document.getElementById("weekendStyle");
+		var weekendColumnLeft = document.getElementById("weekendColumnLeft");
+		var weekendColumnRight = document.getElementById("weekendColumnRight");
+		var stickyNote = document.getElementById("stickyNote");
+
+	//Input Values	
+		var quoteValue = quote.children[1];
+		var section1SymbolValue = section1Symbol.children[1];
+		var section2SymbolVaule = section2Symbol.children[1];
 
 
 	quote.addEventListener("mouseover", function(){
@@ -4404,7 +4452,285 @@ window.addEventListener("load", function(){
 			}
 	});
 
+	section1Field.addEventListener("mouseover", function(){
+		dashSection1.style.outline = "solid 2px red";
+	});
+
+	section1Field.addEventListener("mouseout", function(){
+		dashSection1.style.outline = "none";
+	});
+
+	section1Symbol.addEventListener("change", function(){		
+		var i = section1SymbolValue.options[section1SymbolValue.selectedIndex].value;
+		if (i === "None") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/none.png";
+		} else if (i === "Bullets") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/bullets.png";
+		} else if (i === "Checkboxes") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/checkboxes.png";
+		} else if (i === "Sun-Mon") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/mon-sun.png";
+		}
+	});
+
+	section2Field.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
+
+	section2Field.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
+
+	section2Symbol.addEventListener("change", function(){		
+		var i = section2SymbolValue.options[section2SymbolValue.selectedIndex].value;
+		if (i === "Checkboxes") {
+			dashSection2.src = "../assets/images/hughes/dashSection2/checkboxes.png";
+		} else if (i === "None") {
+			dashSection2.src = "../assets/images/hughes/dashSection2/none.png";
+		} else if (i === "Bullets") {
+			dashSection2.src = "../assets/images/hughes/dashSection2/bullets.png";
+		} 
+	});
+
+	section3Field.addEventListener("mouseover", function(){
+		dashSection3.style.outline = "solid 2px red";
+	});
+
+	section3Field.addEventListener("mouseout", function(){
+		dashSection3.style.outline = "none";
+	});
+
+	section3Symbol.addEventListener("change", function(){		
+		var i = section3Symbol.options[section3Symbol.selectedIndex].value;
+		if (i === "none") {
+			dashSection3.src = "../assets/images/hughes/dashSection3/none.png";
+		} else if (i === "bullets") {
+			dashSection3.src = "../assets/images/hughes/dashSection3/bullets.png";
+		} else if (i === "checkboxes") {
+			dashSection3.src = "../assets/images/hughes/dashSection3/checkboxes.png";
+		}
+	});
 	
+	headerField.addEventListener("mouseover", function(){
+			weekdayHeaderL.style.outline = "solid 2px red";
+			weekdayHeaderR.style.outline = "solid 2px red";
+			weekendHeader3412.style.outline = "solid 2px red";
+			weekendHeaderFull.style.outline = "solid 2px red";
+		});
+
+		headerField.addEventListener("mouseout", function(){
+			weekdayHeaderL.style.outline = "none";
+			weekdayHeaderR.style.outline = "none";
+			weekendHeader3412.style.outline = "none";
+			weekendHeaderFull.style.outline = "none";
+		});
+
+		header1Symbol.addEventListener("change", function(){		
+			var i = header1Symbol.options[header1Symbol.selectedIndex].value;
+			if (i === "none") {
+				weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/none.png";
+				weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/none.png";
+				weekdayHeader34.src = "../assets/images/hughes/weekendHeader3-4/none.png";
+				weekdayHeader12.src = weekdayHeader34.src;
+				weekendHeaderFull.src = weekdayHeaderR.src;
+			} else if (i === "bullets") {
+				weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/bullets.png";
+				weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
+				weekdayHeader34.src = "../assets/images/hughes/weekendHeader3-4/bullets.png";
+				weekdayHeader12.src = weekdayHeader34.src;
+				weekendHeaderFull.src = weekdayHeaderR.src;
+			} else if (i === "checkboxes") {
+				weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/checkboxes.png";
+				weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
+				weekdayHeader34.src = "../assets/images/hughes/weekendHeader3-4/checkboxes.png";
+				weekdayHeader12.src = weekdayHeader34.src;
+				weekendHeaderFull.src = weekdayHeaderR.src;
+			} else if (i === "week") {
+				weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/week.png";
+				weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/week.png";
+				weekdayHeader34.src = "../assets/images/hughes/weekendHeader3-4/week.png";
+				weekdayHeader12.src = weekdayHeader34.src;
+				weekendHeaderFull.src = weekdayHeaderR.src;
+			}
+		});
+
+		scheduleField.addEventListener("mouseover", function(){
+			weekdayScheduleL.style.outline = "solid 2px red";
+			weekdayScheduleR.style.outline = "solid 2px red";
+			weekendSchedule34.style.outline = "solid 2px red";
+			weekendSchedule12.style.outline = "solid 2px red";
+			weekendScheduleFull.style.outline = "solid 2px red";
+		});
+
+		scheduleField.addEventListener("mouseout", function(){
+			weekdayScheduleL.style.outline = "none";
+			weekdayScheduleR.style.outline = "none";
+			weekendSchedule34.style.outline = "none";
+			weekendSchedule12.style.outline = "none";
+			weekendScheduleFull.style.outline = "none";
+		});
+
+		schedule.addEventListener("change", function(){		
+			var i = schedule.options[schedule.selectedIndex].value;
+			if (i === "430") {
+				weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/430.png";
+				weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/430.png";
+				weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/430.png";
+				weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/430.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "31") {
+				weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/31.png";
+				weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/31.png";
+				weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/31.png";
+				weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/31.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "230") {
+				weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/230.png";
+				weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/230.png";
+				weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/230.png";
+				weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/230.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "21") {
+				weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/21.png";
+				weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/21.png";
+				weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/21.png";
+				weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/21.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "no30") {
+				weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no30.png";
+				weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no30.png";
+				weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no30.png";
+				weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/no30.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "no1") {
+				weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no1.png";
+				weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no1.png";
+				weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no1.png";
+				weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/no1.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			}
+		});
+
+		weekendOptionsButton.addEventListener("mouseover", function(){
+			weekendDiv.style.outline = "solid 2px red";
+		});
+
+		weekendOptionsButton.addEventListener("mouseout", function(){
+			weekendDiv.style.outline = "none";
+		});
+
+		weekendStyle.addEventListener("mouseover", function(){
+			weekendSchedule34.style.outline = "solid 2px red";
+			weekendSchedule12.style.outline = "solid 2px red";
+			weekendScheduleFull.style.outline = "solid 2px red";
+		});
+
+		weekendStyle.addEventListener("mouseout", function(){
+			weekendSchedule34.style.outline = "none";
+			weekendSchedule12.style.outline = "none";
+			weekendScheduleFull.style.outline = "none";
+		});
+
+		weekendStyle.addEventListener("change", function(){		
+			var i = weekendStyle.options[weekendStyle.selectedIndex].text;
+			if (i === "Full Weekend") {
+				weekendFullHeaderDiv.style.display = "block";
+				weekendFullScheduleDiv.style.display = "block";
+				weekend3412HeaderDiv.style.display = "none";
+				weekend34ScheduleDiv.style.display = "none";
+				weekendNoteDiv.style.display = "none";			
+				weekend12ScheduleDiv.style.display = "none";
+				weekend12ColumnsDiv.style.display = "none";
+				weekendColumns.style.display = "none";
+				weekendSticky.style.display = "none";
+				weekendStickyTitle.style.display = "none";
+			} else if (i === "3/4 Weekend") {
+				weekendFullHeaderDiv.style.display = "none";
+				weekendFullScheduleDiv.style.display = "none";
+				weekend3412HeaderDiv.style.display = "block";
+				weekend34ScheduleDiv.style.display = "flex";
+				weekendNoteDiv.style.display = "block";
+				weekendSchedule34.style.display = "flex";
+				weekend12ScheduleDiv.style.display = "none";
+				weekend12ColumnsDiv.style.display = "none";
+				weekendColumns.style.display = "none";
+				weekendSticky.style.display = "block";
+				weekendStickyTitle.style.display = "block";
+			} else if (i === "1/2 Weekend") {
+				weekendFullHeaderDiv.style.display = "none";
+				weekendFullScheduleDiv.style.display = "none";
+				weekend3412HeaderDiv.style.display = "block";
+				weekend34ScheduleDiv.style.display = "flex";
+				weekendSchedule34.style.display = "none";
+				weekendNoteDiv.style.display = "block";
+				weekend12ScheduleDiv.style.display = "block";
+				weekend12ColumnsDiv.style.display = "flex";
+				weekendColumns.style.display = "block";
+				weekendSticky.style.display = "block";
+				weekendStickyTitle.style.display = "block";
+			}	
+		});
+
+		weekendColumnLeft.addEventListener("change", function(){		
+			var i = weekendColumnLeft.options[weekendColumnLeft.selectedIndex].value;
+			if (i === "none") {
+				weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/none.png";
+			} else if (i === "bullets") {
+				weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/bullets.png";
+			} else if (i === "checkboxes") {
+				weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/checkboxes.png";
+			} else if (i === "reflection") {
+				weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/reflection.png";
+			}
+		});
+
+		weekendColumnRight.addEventListener("change", function(){		
+			var i = weekendColumnRight.options[weekendColumnRight.selectedIndex].value;
+			if (i === "none") {
+				weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/none.png";
+			} else if (i === "bullets") {
+				weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/bullets.png";
+			} else if (i === "checkboxes") {
+				weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/checkboxes.png";
+			} else if (i === "reflection") {
+				weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/reflection.png";
+			}
+		});
+
+		weekendColumnLeftDiv.addEventListener("mouseover", function(){
+			hughes__12columnLeft.style.outline = "solid 2px red";
+		});
+
+		weekendColumnLeftDiv.addEventListener("mouseout", function(){
+			hughes__12columnLeft.style.outline = "none";
+		});
+
+		weekendColumnRightDiv.addEventListener("mouseover", function(){
+			hughes__12columnRight.style.outline = "solid 2px red";
+		});
+
+		weekendColumnRightDiv.addEventListener("mouseout", function(){
+			hughes__12columnRight.style.outline = "none";
+		});
+
+		stickyNote.addEventListener("mouseover", function(){
+			weekendNote.style.outline = "solid 2px red";
+		});
+
+		stickyNote.addEventListener("mouseout", function(){
+			weekendNote.style.outline = "none";
+		});
+
+		stickyNote.addEventListener("change", function(){		
+			var i = stickyNote.options[stickyNote.selectedIndex].value;
+			if (i === "lined") {
+				weekendNote.src = "../assets/images/hughes/weekendNotes/lined.png";
+			} else if (i === "blank") {
+				weekendNote.src = "../assets/images/hughes/weekendNotes/blank.png";
+			} else if (i === "grid") {
+				weekendNote.src = "../assets/images/hughes/weekendNotes/grid.png";
+			}		
+		});
 
 });
 
