@@ -4424,6 +4424,7 @@ window.addEventListener("load", function(){
 		var header1Text = document.getElementById("text-yui_3_17_2_1_1472485429201_318622");
 		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_331029");
 		var schedule = document.getElementById("select-yui_3_17_2_1_1472485429201_352385");
+		var startTime = document.getElementById("select-yui_3_17_2_1_1472485429201_383800");
 		//Weekend Images
 		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1472485429201_481805");
 		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1472485429201_507586");
@@ -4441,6 +4442,9 @@ window.addEventListener("load", function(){
 		var weekendColumnLeftValue = weekendColumnLeft.children[2];
 		var weekendColumnRightValue = weekendColumnRight.children[2];
 		var stickyNoteValue = stickyNote.children[2];
+
+		weekendColumnRight.style.display = "none";
+		weekendColumnLeft.style.display = "none";
 
 
 	quote.addEventListener("mouseover", function(){
@@ -4678,6 +4682,16 @@ window.addEventListener("load", function(){
 		}
 	});
 
+	startTime.addEventListener("mouseover", function(){
+		weekdayScheduleL.style.outline = "solid 2px red";
+		weekdayScheduleR.style.outline = "solid 2px red";
+	});
+
+	startTime.addEventListener("mouseout", function(){
+		weekdayScheduleL.style.outline = "none";
+		weekdayScheduleR.style.outline = "none";
+	});
+
 	weekendStyle.addEventListener("mouseover", function(){
 		weekendSchedule34.style.outline = "solid 2px red";
 		weekendSchedule12.style.outline = "solid 2px red";
@@ -4700,9 +4714,9 @@ window.addEventListener("load", function(){
 			weekendNoteDiv.style.display = "none";			
 			weekend12ScheduleDiv.style.display = "none";
 			weekend12ColumnsDiv.style.display = "none";
-			weekendColumns.style.display = "none";
-			weekendSticky.style.display = "none";
-			weekendStickyTitle.style.display = "none";
+			weekendColumnRight.style.display = "none";
+			weekendColumnLeft.style.display = "none";
+			stickyNote.style.display = "none";
 		} else if (i === "3/4 Weekend") {
 			weekendFullHeaderDiv.style.display = "none";
 			weekendFullScheduleDiv.style.display = "none";
@@ -4712,9 +4726,9 @@ window.addEventListener("load", function(){
 			weekendSchedule34.style.display = "flex";
 			weekend12ScheduleDiv.style.display = "none";
 			weekend12ColumnsDiv.style.display = "none";
-			weekendColumns.style.display = "none";
-			weekendSticky.style.display = "block";
-			weekendStickyTitle.style.display = "block";
+			weekendColumnRight.style.display = "none";
+			weekendColumnLeft.style.display = "none";
+			stickyNote.style.display = "block";
 		} else if (i === "1/2 Weekend") {
 			weekendFullHeaderDiv.style.display = "none";
 			weekendFullScheduleDiv.style.display = "none";
@@ -4724,9 +4738,9 @@ window.addEventListener("load", function(){
 			weekendNoteDiv.style.display = "block";
 			weekend12ScheduleDiv.style.display = "block";
 			weekend12ColumnsDiv.style.display = "flex";
-			weekendColumns.style.display = "block";
-			weekendSticky.style.display = "block";
-			weekendStickyTitle.style.display = "block";
+			weekendColumnRight.style.display = "block";
+			weekendColumnLeft.style.display = "block";
+			stickyNote.style.display = "block";
 		}	
 	});
 
