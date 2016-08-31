@@ -4421,6 +4421,7 @@ window.addEventListener("load", function(){
 		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_258649");
 		//Weekday Images
 		var overview = document.getElementById("select-yui_3_17_2_1_1472485429201_298743");
+		var header1Text = document.getElementById("text-yui_3_17_2_1_1472485429201_318622");
 		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_331029");
 		var schedule = document.getElementById("select-yui_3_17_2_1_1472485429201_352385");
 		//Weekend Images
@@ -4563,6 +4564,20 @@ window.addEventListener("load", function(){
 		}
 	});
 	
+	header1Text.addEventListener("mouseover", function(){
+		weekdayHeaderL.style.outline = "solid 2px red";
+		weekdayHeaderR.style.outline = "solid 2px red";
+		weekendHeader3412.style.outline = "solid 2px red";
+		weekendHeaderFull.style.outline = "solid 2px red";
+	});
+
+	header1Text.addEventListener("mouseout", function(){
+		weekdayHeaderL.style.outline = "none";
+		weekdayHeaderR.style.outline = "none";
+		weekendHeader3412.style.outline = "none";
+		weekendHeaderFull.style.outline = "none";
+	});
+
 	header1Symbol.addEventListener("mouseover", function(){
 		weekdayHeaderL.style.outline = "solid 2px red";
 		weekdayHeaderR.style.outline = "solid 2px red";
