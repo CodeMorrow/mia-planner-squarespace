@@ -4388,7 +4388,7 @@ window.addEventListener("load", function(){
 		var weekdayScheduleR = document.getElementById("weekdayScheduleR");
 		var weekdayScheduleL = document.getElementById("weekdayScheduleL");
 		var weekendHeaderFull = document.getElementById("weekendHeaderFull");
-		var weekendHeader3412 = document.getElementById("weekendHeader34");
+		var weekendHeader34 = document.getElementById("weekendHeader34");
 		var weekendScheduleFull = document.getElementById("weekendScheduleFull");
 		var weekendSchedule34 = document.getElementById("weekendSchedule34");
 		var weekendSchedule12 = document.getElementById("weekendSchedule12");
@@ -4398,7 +4398,7 @@ window.addEventListener("load", function(){
 	//Divs to be manipulated
 		var weekendFullHeaderDiv = document.getElementById("weekendFullHeaderDiv");
 		var weekendFullScheduleDiv = document.getElementById("weekendFullScheduleDiv");
-		var weekend3412HeaderDiv = document.getElementById("weekend34HeaderDiv");
+		var weekend34HeaderDiv = document.getElementById("weekend34HeaderDiv");
 		var weekend34ScheduleDiv = document.getElementById("weekend34ScheduleDiv");
 		var weekend12ScheduleDiv = document.getElementById("weekend12ScheduleDiv");
 		var weekend12ColumnsDiv = document.getElementById("weekend12ColumnsDiv");	
@@ -4427,6 +4427,7 @@ window.addEventListener("load", function(){
 		var startTime = document.getElementById("select-yui_3_17_2_1_1472485429201_383800");
 		//Weekend Images
 		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1472485429201_481805");
+		var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1472743293156_107253");
 		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1472485429201_507586");
 		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1472485429201_539032");
 		var stickyNote = document.getElementById("select-yui_3_17_2_1_1472485429201_559031");
@@ -4439,12 +4440,14 @@ window.addEventListener("load", function(){
 		var header1SymbolValue = header1Symbol.children[1];
 		var scheduleValue = schedule.children[2];
 		var weekendStyleValue = weekendStyle.children[2];
+		var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
 		var weekendColumnLeftValue = weekendColumnLeft.children[2];
 		var weekendColumnRightValue = weekendColumnRight.children[2];
 		var stickyNoteValue = stickyNote.children[2];
 
 		weekendColumnRight.style.display = "none";
 		weekendColumnLeft.style.display = "none";
+		weekendHalfSchedule.style.display = "none";
 
 
 	quote.addEventListener("mouseover", function(){
@@ -4463,9 +4466,7 @@ window.addEventListener("load", function(){
 			} else if (i === "Yes: Pre-filled (All Quotes)") {
 				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
 			} else if (i === "Yes: Pre-filled (1/2 Verses)") {
-				dashQuote.src = "../assets/images/hughes/quote/yesHalf.png";
-			} else if (i === "No: 3 Blank Lines") {
-				dashQuote.src = "../assets/images/hughes/quote/noLines.png";
+				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
 			}
 	});
 
@@ -4493,8 +4494,10 @@ window.addEventListener("load", function(){
 			dashSection1.src = "../assets/images/hughes/dashSection1/bullets.png";
 		} else if (i === "Checkboxes") {
 			dashSection1.src = "../assets/images/hughes/dashSection1/checkboxes.png";
-		} else if (i === "Sun-Mon") {
+		} else if (i === "Mon-Sun") {
 			dashSection1.src = "../assets/images/hughes/dashSection1/mon-sun.png";
+		} else if (i === "Numbered") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/numbers.png";
 		}
 	});
 
@@ -4571,28 +4574,28 @@ window.addEventListener("load", function(){
 	header1Text.addEventListener("mouseover", function(){
 		weekdayHeaderL.style.outline = "solid 2px red";
 		weekdayHeaderR.style.outline = "solid 2px red";
-		weekendHeader3412.style.outline = "solid 2px red";
+		weekendHeader34.style.outline = "solid 2px red";
 		weekendHeaderFull.style.outline = "solid 2px red";
 	});
 
 	header1Text.addEventListener("mouseout", function(){
 		weekdayHeaderL.style.outline = "none";
 		weekdayHeaderR.style.outline = "none";
-		weekendHeader3412.style.outline = "none";
+		weekendHeader34.style.outline = "none";
 		weekendHeaderFull.style.outline = "none";
 	});
 
 	header1Symbol.addEventListener("mouseover", function(){
 		weekdayHeaderL.style.outline = "solid 2px red";
 		weekdayHeaderR.style.outline = "solid 2px red";
-		weekendHeader3412.style.outline = "solid 2px red";
+		weekendHeader34.style.outline = "solid 2px red";
 		weekendHeaderFull.style.outline = "solid 2px red";
 	});
 
 	header1Symbol.addEventListener("mouseout", function(){
 		weekdayHeaderL.style.outline = "none";
 		weekdayHeaderR.style.outline = "none";
-		weekendHeader3412.style.outline = "none";
+		weekendHeader34.style.outline = "none";
 		weekendHeaderFull.style.outline = "none";
 	});
 
@@ -4601,22 +4604,22 @@ window.addEventListener("load", function(){
 		if (i === "None") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/none.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/none.png";
-			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/none.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/none.png";
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/none.png";
 		} else if (i === "Bullets") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/bullets.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
-			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/bullets.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/bullets.png";
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
 		} else if (i === "Checkboxes") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/checkboxes.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
-			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/checkboxes.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/checkboxes.png";
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
 		} else if (i === "Sun-Mon") {
 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/week.png";
 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/week.png";
-			weekendHeader3412.src = "../assets/images/hughes/weekendHeader3-4/week.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/week.png";
 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/week.png";
 		}
 	});
@@ -4625,7 +4628,6 @@ window.addEventListener("load", function(){
 		weekdayScheduleL.style.outline = "solid 2px red";
 		weekdayScheduleR.style.outline = "solid 2px red";
 		weekendSchedule34.style.outline = "solid 2px red";
-		weekendSchedule12.style.outline = "solid 2px red";
 		weekendScheduleFull.style.outline = "solid 2px red";
 	});
 
@@ -4633,7 +4635,6 @@ window.addEventListener("load", function(){
 		weekdayScheduleL.style.outline = "none";
 		weekdayScheduleR.style.outline = "none";
 		weekendSchedule34.style.outline = "none";
-		weekendSchedule12.style.outline = "none";
 		weekendScheduleFull.style.outline = "none";
 	});
 
@@ -4643,37 +4644,31 @@ window.addEventListener("load", function(){
 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/430.png";
 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/430.png";
 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/430.png";
-			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/430.png";
 			weekendScheduleFull.src = weekdayScheduleR.src;
 		} else if (i === "3 Lines; 1 Hour Labels") {
 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/31.png";
 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/31.png";
 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/31.png";
-			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/31.png";
 			weekendScheduleFull.src = weekdayScheduleR.src;
 		} else if (i === "2 Lines; 30 Minute Labels") {
 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/230.png";
 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/230.png";
 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/230.png";
-			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/230.png";
 			weekendScheduleFull.src = weekdayScheduleR.src;
 		} else if (i === "2 Lines; 1 Hour Labels") {
 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/21.png";
 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/21.png";
 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/21.png";
-			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/21.png";
 			weekendScheduleFull.src = weekdayScheduleR.src;
 		} else if (i === "No Lines; 30 Minute Labels") {
 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no30.png";
 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no30.png";
 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no30.png";
-			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/no30.png";
 			weekendScheduleFull.src = weekdayScheduleR.src;
 		} else if (i === "No Lines; 1 Hour Labels") {
 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no1.png";
 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no1.png";
-			weekendSchedule3412.src = "../assets/images/hughes/weekendSchedule3-4/no1.png";
-			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/no1.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no1.png";
 			weekendScheduleFull.src = weekdayScheduleR.src;
 		}
 	});
@@ -4705,7 +4700,7 @@ window.addEventListener("load", function(){
 		if (i === "Full Weekend") {
 			weekendFullHeaderDiv.style.display = "block";
 			weekendFullScheduleDiv.style.display = "block";
-			weekend3412HeaderDiv.style.display = "none";
+			weekend34HeaderDiv.style.display = "none";
 			weekend34ScheduleDiv.style.display = "none";
 			weekendNoteDiv.style.display = "none";			
 			weekend12ScheduleDiv.style.display = "none";
@@ -4713,10 +4708,11 @@ window.addEventListener("load", function(){
 			weekendColumnRight.style.display = "none";
 			weekendColumnLeft.style.display = "none";
 			stickyNote.style.display = "none";
+			weekendHalfSchedule.style.display = "none";
 		} else if (i === "3/4 Weekend") {
 			weekendFullHeaderDiv.style.display = "none";
 			weekendFullScheduleDiv.style.display = "none";
-			weekend3412HeaderDiv.style.display = "block";
+			weekend34HeaderDiv.style.display = "block";
 			weekend34ScheduleDiv.style.display = "flex";
 			weekendNoteDiv.style.display = "block";
 			weekendSchedule34.style.display = "flex";
@@ -4725,11 +4721,12 @@ window.addEventListener("load", function(){
 			weekendColumnRight.style.display = "none";
 			weekendColumnLeft.style.display = "none";
 			stickyNote.style.display = "block";
+			weekendHalfSchedule.style.display = "none";
 		} else if (i === "1/2 Weekend") {
 			weekendFullHeaderDiv.style.display = "none";
 			weekendFullScheduleDiv.style.display = "none";
-			weekend3412HeaderDiv.style.display = "block";
-			weekend34ScheduleDiv.style.display = "flex";
+			weekend34HeaderDiv.style.display = "none";
+			weekend34ScheduleDiv.style.display = "none";
 			weekendSchedule34.style.display = "none";
 			weekendNoteDiv.style.display = "block";
 			weekend12ScheduleDiv.style.display = "block";
@@ -4737,7 +4734,26 @@ window.addEventListener("load", function(){
 			weekendColumnRight.style.display = "block";
 			weekendColumnLeft.style.display = "block";
 			stickyNote.style.display = "block";
+			weekendHalfSchedule.style.display = "block";
 		}	
+	});
+
+
+	weekendHalfSchedule.addEventListener("mouseover", function(){
+		weekendSchedule12.style.outline = "solid 2px red";
+	});
+
+	weekendHalfSchedule.addEventListener("mouseout", function(){
+		weekendSchedule12.style.outline = "none";
+	});
+
+	weekendHalfSchedule.addEventListener("change", function(){		
+		var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
+		if (i === "None") {
+			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/none.png";
+		} else if (i === "AM/PM") {
+			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/ampm.png";
+		} 
 	});
 
 	weekendColumnLeft.addEventListener("change", function(){		
