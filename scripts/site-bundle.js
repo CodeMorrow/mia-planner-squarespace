@@ -4466,7 +4466,7 @@ window.addEventListener("load", function(){
 			} else if (i === "Yes: Pre-filled (All Quotes)") {
 				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
 			} else if (i === "Yes: Pre-filled (1/2 Verses)") {
-				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
+				dashQuote.src = "../assets/images/hughes/quote/verse.png";
 			}
 	});
 
