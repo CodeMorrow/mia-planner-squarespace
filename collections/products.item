@@ -10,7 +10,7 @@
 
 	{@|product-status}
 
-	<h1 class="product-title" data-content-field="title">{title}</h1>
+	<h1 id="product-title" class="product-title" data-content-field="title">{title}</h1>
 
 	{@|product-price}
  
@@ -21,152 +21,8 @@
          {.repeated section items}
            {.image?}
 
-           <div>
-           	<!-- ############################ Planner ################################ -->
-  <div class="dynamicPreviewClasses planner">
-
-    <div class="dynamicPreviewClasses hughes__left">
-
-      <div class="dynamicPreviewClasses headerLeft">
-        <img class="dynamicPreviewClasses" src="../assets/images/hughes/headerLeft.png">
-      </div>
-
-      <div class="dynamicPreviewClasses contentLeft">
-        
-        <div class="dynamicPreviewClasses hughes__dashboard" id="dashboard">
-
-          <div class="dynamicPreviewClasses hughes__dashboardQuote">
-          <!-- Dashboard Quote Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="dashQuote" src="../assets/images/hughes/quote/yesBlank.png">
-
-          </div>
-
-          <div class="dynamicPreviewClasses hughes__dashboardSection1">
-          <!-- Dashboard Section 1 Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="dashSection1" src="../assets/images/hughes/dashSection1/none.png">
-
-          </div>
-
-          <div class="dynamicPreviewClasses hughes__dashboardSection2">
-          <!-- Dashboard Section 2 Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="dashSection2" src="../assets/images/hughes/dashSection2/checkboxes.png">
-
-          </div>
-
-          <div class="dynamicPreviewClasses hughes__dashboardSection3">
-          <!-- Dashboard Section 3 Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="dashSection3" src="../assets/images/hughes/dashSection3/none.png">
-
-          </div>
-
-        </div>
-
-        <div class="dynamicPreviewClasses hughes__dailyLeft" id="hughes__dailyLeft">
-
-          <div class="dynamicPreviewClasses hughes__dailyLeftHeader">
-          <!-- Left side daily header Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="weekdayHeaderL" src="../assets/images/hughes/dailyHeaderLeft/none.png">
-
-          </div>
-
-          <div class="dynamicPreviewClasses hughes__dailyLeftSchedule">
-          <!-- Left side daily schedule Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="weekdayScheduleL" src="../assets/images/hughes/dailyScheduleLeft/31.png">
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="dynamicPreviewClasses hughes__right">
-
-      <div class="dynamicPreviewClasses headerRight">
-        <img class="dynamicPreviewClasses" src="../assets/images/hughes/headerRight.png">
-      </div>
-
-      <div class="dynamicPreviewClasses contentRight">  
-
-        <div class="dynamicPreviewClasses hughes__dailyRight"  id="hughes__dailyRight">
-          <div class="dynamicPreviewClasses hughes__dailyRightHeader">
-          <!-- Right side daily header Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="weekdayHeaderR" src="../assets/images/hughes/dailyHeaderRight/none.png">
-
-          </div>
-
-          <div class="dynamicPreviewClasses hughes__dailyRightSchedule">
-          <!-- Right side daily schedule Image goes here -->
-
-            <img class="dynamicPreviewClasses" id="weekdayScheduleR" src="../assets/images/hughes/dailyScheduleRight/31.png">
-
-          </div>
-        </div>
-
-        <div class="dynamicPreviewClasses hughes__weekend" id="weekendDiv">
-          
-          <div id="weekendFullHeaderDiv" class="dynamicPreviewClasses hughes__fullWeekendHeader">
-            <!-- full weekend header Image goes here -->
-            <img class="dynamicPreviewClasses" id="weekendHeaderFull" src="../assets/images/hughes/dailyHeaderRight/none.png">
-          </div>
-
-          <div id="weekendFullScheduleDiv" class="dynamicPreviewClasses hughes__fullWeekendSchedule">
-            <!-- full weekend schedule Image goes here -->
-            <img class="dynamicPreviewClasses" id="weekendScheduleFull" src="../assets/images/hughes/dailyScheduleRight/31.png">
-          </div>
-          
-
-
-          <div class="dynamicPreviewClasses hughes__3-4weekend">
-            
-            <div id="weekend34HeaderDiv" class="dynamicPreviewClasses hughes__3-4weekendHeader">
-              <!-- 3/4 or 1/2 weekend header Image goes here -->
-
-                <img class="dynamicPreviewClasses" id="weekendHeader34" src="../assets/images/hughes/weekendHeader3-4/none.png">
-
-            </div>
-
-            <div id="weekend34ScheduleDiv" class="dynamicPreviewClasses hughes__3-4weekendSchedule">
-              <!-- 3/4 weekend schedule Image goes here -->
-
-                <img class="dynamicPreviewClasses" id="weekendSchedule34" src="../assets/images/hughes/weekendSchedule3-4/31.png">
-            </div>
-
-            <div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses hughes__1-2weekendSchedule">
-                <!-- 1/2 weekend schedule Image goes here -->
-                <img class="dynamicPreviewClasses" id="weekendSchedule12" src="../assets/images/hughes/weekendSchedule1-2/none.png">
-            </div>
-
-            <div id="weekend12ColumnsDiv" class="dynamicPreviewClasses hughes__1-2columns">
-                <div class="dynamicPreviewClasses hughes__1-2columnLeft" id="hughes__1-2columnLeft">
-                  <!-- 1/2 weekend left column Image goes here -->
-                  <img class="dynamicPreviewClasses" id="weekend12ColumnL" src="../assets/images/hughes/weekendColumn1-2/bullets.png">
-                </div>
-
-                <div class="dynamicPreviewClasses hughes__1-2columnRight" id="hughes__1-2columnRight">
-                  <!-- 1/2 weekend right column Image goes here -->
-                  <img class="dynamicPreviewClasses" id="weekend12ColumnR" src="../assets/images/hughes/weekendColumn1-2/reflection.png">
-                </div>
-              
-            </div>
-
-          </div>
-
-          <div id="weekendNoteDiv" class="dynamicPreviewClasses hughes__weekendNote">
-            <!-- 3/4 or 1/2 weekend notes Image goes here -->
-
-              <img class="dynamicPreviewClasses" id="weekendNote" src="../assets/images/hughes/weekendNotes/lined.png">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+           <div id="dynamicPreview">
+          	<!-- ############################ Dynamic Planner Preview ################################ -->
            </div>
 
            {.end}
