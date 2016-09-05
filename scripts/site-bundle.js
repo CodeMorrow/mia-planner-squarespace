@@ -4375,460 +4375,460 @@
 
 // ####################### Custom JS
 
-// window.addEventListener("load", function(){
+window.addEventListener("load", function(){
 
-// 	var productTitle = document.getElementById("product-title");
-// 	var dynamicPreview = document.getElementById("dynamicPreview")
+	var productTitle = document.getElementById("product-title");
+	var dynamicPreview = document.getElementById("dynamicPreview")
 
-// 	if (productTitle.innerHTML == "Hughes") {
-// debugger;		
-// 		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses hughes__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="../assets/images/hughes/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses hughes__dashboard" id="dashboard"><div class="dynamicPreviewClasses hughes__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="../assets/images/hughes/quote/yesBlank.png"></div><div class="dynamicPreviewClasses hughes__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="../assets/images/hughes/dashSection1/none.png"></div><div class="dynamicPreviewClasses hughes__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="../assets/images/hughes/dashSection2/checkboxes.png"></div><div class="dynamicPreviewClasses hughes__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="../assets/images/hughes/dashSection3/none.png"></div></div><div class="dynamicPreviewClasses hughes__dailyLeft" id="hughes__dailyLeft"><div class="dynamicPreviewClasses hughes__dailyLeftHeader"><img class="dynamicPreviewClasses" id="weekdayHeaderL" src="../assets/images/hughes/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses hughes__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="../assets/images/hughes/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses hughes__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="../assets/images/hughes/headerRight.png"></div><div class="dynamicPreviewClasses contentRight">  <div class="dynamicPreviewClasses hughes__dailyRight"  id="hughes__dailyRight"><div class="dynamicPreviewClasses hughes__dailyRightHeader"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="../assets/images/hughes/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses hughes__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="../assets/images/hughes/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses hughes__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv" class="dynamicPreviewClasses hughes__fullWeekendHeader"><img class="dynamicPreviewClasses" id="weekendHeaderFull" src="../assets/images/hughes/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses hughes__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="../assets/images/hughes/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses hughes__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses hughes__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="../assets/images/hughes/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses hughes__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="../assets/images/hughes/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses hughes__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="../assets/images/hughes/weekendSchedule1-2/none.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses hughes__1-2columns"><div class="dynamicPreviewClasses hughes__1-2columnLeft" id="hughes__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="../assets/images/hughes/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses hughes__1-2columnRight" id="hughes__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="../assets/images/hughes/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses hughes__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="../assets/images/hughes/weekendNotes/lined.png"></div></div></div></div></div>';
+	if (productTitle.innerHTML == "Hughes") {
+debugger;		
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses hughes__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="../assets/images/hughes/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses hughes__dashboard" id="dashboard"><div class="dynamicPreviewClasses hughes__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="../assets/images/hughes/quote/yesBlank.png"></div><div class="dynamicPreviewClasses hughes__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="../assets/images/hughes/dashSection1/none.png"></div><div class="dynamicPreviewClasses hughes__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="../assets/images/hughes/dashSection2/checkboxes.png"></div><div class="dynamicPreviewClasses hughes__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="../assets/images/hughes/dashSection3/none.png"></div></div><div class="dynamicPreviewClasses hughes__dailyLeft" id="hughes__dailyLeft"><div class="dynamicPreviewClasses hughes__dailyLeftHeader"><img class="dynamicPreviewClasses" id="weekdayHeaderL" src="../assets/images/hughes/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses hughes__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="../assets/images/hughes/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses hughes__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="../assets/images/hughes/headerRight.png"></div><div class="dynamicPreviewClasses contentRight">  <div class="dynamicPreviewClasses hughes__dailyRight"  id="hughes__dailyRight"><div class="dynamicPreviewClasses hughes__dailyRightHeader"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="../assets/images/hughes/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses hughes__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="../assets/images/hughes/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses hughes__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv" class="dynamicPreviewClasses hughes__fullWeekendHeader"><img class="dynamicPreviewClasses" id="weekendHeaderFull" src="../assets/images/hughes/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses hughes__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="../assets/images/hughes/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses hughes__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses hughes__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="../assets/images/hughes/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses hughes__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="../assets/images/hughes/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses hughes__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="../assets/images/hughes/weekendSchedule1-2/none.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses hughes__1-2columns"><div class="dynamicPreviewClasses hughes__1-2columnLeft" id="hughes__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="../assets/images/hughes/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses hughes__1-2columnRight" id="hughes__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="../assets/images/hughes/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses hughes__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="../assets/images/hughes/weekendNotes/lined.png"></div></div></div></div></div>';
 
-// 		//Planner image manipulation operations
-// 	//Images to be manipulated
-// 		var dashQuote = document.getElementById("dashQuote");
-// 		var dashSection1 = document.getElementById("dashSection1");
-// 		var dashSection2 = document.getElementById("dashSection2");
-// 		var dashSection3 = document.getElementById("dashSection3");
-// 		var weekdayHeaderR = document.getElementById("weekdayHeaderR");
-// 		var weekdayHeaderL = document.getElementById("weekdayHeaderL");
-// 		var weekdayScheduleR = document.getElementById("weekdayScheduleR");
-// 		var weekdayScheduleL = document.getElementById("weekdayScheduleL");
-// 		var weekendHeaderFull = document.getElementById("weekendHeaderFull");
-// 		var weekendHeader34 = document.getElementById("weekendHeader34");
-// 		var weekendScheduleFull = document.getElementById("weekendScheduleFull");
-// 		var weekendSchedule34 = document.getElementById("weekendSchedule34");
-// 		var weekendSchedule12 = document.getElementById("weekendSchedule12");
-// 		var weekend12ColumnL = document.getElementById("weekend12ColumnL");
-// 		var weekend12ColumnR = document.getElementById("weekend12ColumnR");
-// 		var weekendNote = document.getElementById("weekendNote");
-// 	//Divs to be manipulated
-// 		var weekendFullHeaderDiv = document.getElementById("weekendFullHeaderDiv");
-// 		var weekendFullScheduleDiv = document.getElementById("weekendFullScheduleDiv");
-// 		var weekend34HeaderDiv = document.getElementById("weekend34HeaderDiv");
-// 		var weekend34ScheduleDiv = document.getElementById("weekend34ScheduleDiv");
-// 		var weekend12ScheduleDiv = document.getElementById("weekend12ScheduleDiv");
-// 		var weekend12ColumnsDiv = document.getElementById("weekend12ColumnsDiv");	
-// 		var weekendDiv = document.getElementById("weekendDiv");
-// 		var weekendNoteDiv = document.getElementById("weekendNoteDiv");
-// 		var weekendColumns = document.getElementById("weekendColumns");
-// 		var weekendSticky = document.getElementById("weekendSticky");
-// 		var weekendStickyTitle = document.getElementById("weekendStickyTitle");
+		//Planner image manipulation operations
+	//Images to be manipulated
+		var dashQuote = document.getElementById("dashQuote");
+		var dashSection1 = document.getElementById("dashSection1");
+		var dashSection2 = document.getElementById("dashSection2");
+		var dashSection3 = document.getElementById("dashSection3");
+		var weekdayHeaderR = document.getElementById("weekdayHeaderR");
+		var weekdayHeaderL = document.getElementById("weekdayHeaderL");
+		var weekdayScheduleR = document.getElementById("weekdayScheduleR");
+		var weekdayScheduleL = document.getElementById("weekdayScheduleL");
+		var weekendHeaderFull = document.getElementById("weekendHeaderFull");
+		var weekendHeader34 = document.getElementById("weekendHeader34");
+		var weekendScheduleFull = document.getElementById("weekendScheduleFull");
+		var weekendSchedule34 = document.getElementById("weekendSchedule34");
+		var weekendSchedule12 = document.getElementById("weekendSchedule12");
+		var weekend12ColumnL = document.getElementById("weekend12ColumnL");
+		var weekend12ColumnR = document.getElementById("weekend12ColumnR");
+		var weekendNote = document.getElementById("weekendNote");
+	//Divs to be manipulated
+		var weekendFullHeaderDiv = document.getElementById("weekendFullHeaderDiv");
+		var weekendFullScheduleDiv = document.getElementById("weekendFullScheduleDiv");
+		var weekend34HeaderDiv = document.getElementById("weekend34HeaderDiv");
+		var weekend34ScheduleDiv = document.getElementById("weekend34ScheduleDiv");
+		var weekend12ScheduleDiv = document.getElementById("weekend12ScheduleDiv");
+		var weekend12ColumnsDiv = document.getElementById("weekend12ColumnsDiv");	
+		var weekendDiv = document.getElementById("weekendDiv");
+		var weekendNoteDiv = document.getElementById("weekendNoteDiv");
+		var weekendColumns = document.getElementById("weekendColumns");
+		var weekendSticky = document.getElementById("weekendSticky");
+		var weekendStickyTitle = document.getElementById("weekendStickyTitle");
 
-// 	//Fields that can manipulate
-// 		//Dashboard Images
-// 		var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");
-// 		var section1Text = document.getElementById("text-yui_3_17_2_1_1472435255832_55878");
-// 		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_65955");
-// 		var section2Text = document.getElementById("text-yui_3_17_2_1_1472435255832_88708");
-// 		var section2Text1 = document.getElementById("text-yui_3_17_2_1_1472485429201_232985");
-// 		var section2Text2 = document.getElementById("text-yui_3_17_2_1_1472485429201_245413");
-// 		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_97902");
-// 		var section3Text = document.getElementById("text-yui_3_17_2_1_1472485429201_249874");	
-// 		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_258649");
-// 		//Weekday Images
-// 		var overview = document.getElementById("select-yui_3_17_2_1_1472485429201_298743");
-// 		var header1Text = document.getElementById("text-yui_3_17_2_1_1472485429201_318622");
-// 		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_331029");
-// 		var schedule = document.getElementById("select-yui_3_17_2_1_1472485429201_352385");
-// 		var startTime = document.getElementById("select-yui_3_17_2_1_1472485429201_383800");
-// 		//Weekend Images
-// 		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1472485429201_481805");
-// 		var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1472743293156_107253");
-// 		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1472485429201_507586");
-// 		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1472485429201_539032");
-// 		var stickyNote = document.getElementById("select-yui_3_17_2_1_1472485429201_559031");
+	//Fields that can manipulate
+		//Dashboard Images
+		var quote = document.getElementById("select-yui_3_17_2_1_1472435255832_34257");
+		var section1Text = document.getElementById("text-yui_3_17_2_1_1472435255832_55878");
+		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_65955");
+		var section2Text = document.getElementById("text-yui_3_17_2_1_1472435255832_88708");
+		var section2Text1 = document.getElementById("text-yui_3_17_2_1_1472485429201_232985");
+		var section2Text2 = document.getElementById("text-yui_3_17_2_1_1472485429201_245413");
+		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1472435255832_97902");
+		var section3Text = document.getElementById("text-yui_3_17_2_1_1472485429201_249874");	
+		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_258649");
+		//Weekday Images
+		var overview = document.getElementById("select-yui_3_17_2_1_1472485429201_298743");
+		var header1Text = document.getElementById("text-yui_3_17_2_1_1472485429201_318622");
+		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1472485429201_331029");
+		var schedule = document.getElementById("select-yui_3_17_2_1_1472485429201_352385");
+		var startTime = document.getElementById("select-yui_3_17_2_1_1472485429201_383800");
+		//Weekend Images
+		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1472485429201_481805");
+		var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1472743293156_107253");
+		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1472485429201_507586");
+		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1472485429201_539032");
+		var stickyNote = document.getElementById("select-yui_3_17_2_1_1472485429201_559031");
 
-// 	//Input Values	
-// 		var quoteValue = quote.children[1];
-// 		var section1SymbolValue = section1Symbol.children[1];
-// 		var section2SymbolValue = section2Symbol.children[1];
-// 		var section3SymbolValue = section3Symbol.children[1];
-// 		var header1SymbolValue = header1Symbol.children[1];
-// 		var scheduleValue = schedule.children[2];
-// 		var weekendStyleValue = weekendStyle.children[2];
-// 		var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
-// 		var weekendColumnLeftValue = weekendColumnLeft.children[2];
-// 		var weekendColumnRightValue = weekendColumnRight.children[2];
-// 		var stickyNoteValue = stickyNote.children[2];
+	//Input Values	
+		var quoteValue = quote.children[1];
+		var section1SymbolValue = section1Symbol.children[1];
+		var section2SymbolValue = section2Symbol.children[1];
+		var section3SymbolValue = section3Symbol.children[1];
+		var header1SymbolValue = header1Symbol.children[1];
+		var scheduleValue = schedule.children[2];
+		var weekendStyleValue = weekendStyle.children[2];
+		var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
+		var weekendColumnLeftValue = weekendColumnLeft.children[2];
+		var weekendColumnRightValue = weekendColumnRight.children[2];
+		var stickyNoteValue = stickyNote.children[2];
 
-// 		weekendColumnRight.style.display = "none";
-// 		weekendColumnLeft.style.display = "none";
-// 		weekendHalfSchedule.style.display = "none";
+		weekendColumnRight.style.display = "none";
+		weekendColumnLeft.style.display = "none";
+		weekendHalfSchedule.style.display = "none";
 
 
-// 	quote.addEventListener("mouseover", function(){
-// 		dashQuote.style.outline = "solid 2px red";
-// 	});
+	quote.addEventListener("mouseover", function(){
+		dashQuote.style.outline = "solid 2px red";
+	});
 
-// 	quote.addEventListener("mouseout", function(){
-// 		dashQuote.style.outline = "none";
-// 	});
+	quote.addEventListener("mouseout", function(){
+		dashQuote.style.outline = "none";
+	});
 
-// 	quote.addEventListener('change', function(){
+	quote.addEventListener('change', function(){
 
-// 		var i = quoteValue.options[quoteValue.selectedIndex].value;
-// 			if (i === "Yes: Blank") {
-// 				dashQuote.src = "../assets/images/hughes/quote/yesBlank.png";	
-// 			} else if (i === "Yes: Pre-filled (All Quotes)") {
-// 				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
-// 			} else if (i === "Yes: Pre-filled (1/2 Verses)") {
-// 				dashQuote.src = "../assets/images/hughes/quote/verse.png";
-// 			}
-// 	});
+		var i = quoteValue.options[quoteValue.selectedIndex].value;
+			if (i === "Yes: Blank") {
+				dashQuote.src = "../assets/images/hughes/quote/yesBlank.png";	
+			} else if (i === "Yes: Pre-filled (All Quotes)") {
+				dashQuote.src = "../assets/images/hughes/quote/yesAllQuotes.png";
+			} else if (i === "Yes: Pre-filled (1/2 Verses)") {
+				dashQuote.src = "../assets/images/hughes/quote/verse.png";
+			}
+	});
 
-// 	section1Text.addEventListener("mouseover", function(){
-// 		dashSection1.style.outline = "solid 2px red";
-// 	});
+	section1Text.addEventListener("mouseover", function(){
+		dashSection1.style.outline = "solid 2px red";
+	});
 
-// 	section1Text.addEventListener("mouseout", function(){
-// 		dashSection1.style.outline = "none";
-// 	});
+	section1Text.addEventListener("mouseout", function(){
+		dashSection1.style.outline = "none";
+	});
 
-// 	section1Symbol.addEventListener("mouseover", function(){
-// 		dashSection1.style.outline = "solid 2px red";
-// 	});
+	section1Symbol.addEventListener("mouseover", function(){
+		dashSection1.style.outline = "solid 2px red";
+	});
 
-// 	section1Symbol.addEventListener("mouseout", function(){
-// 		dashSection1.style.outline = "none";
-// 	});
+	section1Symbol.addEventListener("mouseout", function(){
+		dashSection1.style.outline = "none";
+	});
 
-// 	section1Symbol.addEventListener("change", function(){		
-// 		var i = section1SymbolValue.options[section1SymbolValue.selectedIndex].value;
-// 		if (i === "None") {
-// 			dashSection1.src = "../assets/images/hughes/dashSection1/none.png";
-// 		} else if (i === "Bullets") {
-// 			dashSection1.src = "../assets/images/hughes/dashSection1/bullets.png";
-// 		} else if (i === "Checkboxes") {
-// 			dashSection1.src = "../assets/images/hughes/dashSection1/checkboxes.png";
-// 		} else if (i === "Mon-Sun") {
-// 			dashSection1.src = "../assets/images/hughes/dashSection1/mon-sun.png";
-// 		} else if (i === "Numbered") {
-// 			dashSection1.src = "../assets/images/hughes/dashSection1/numbers.png";
-// 		}
-// 	});
+	section1Symbol.addEventListener("change", function(){		
+		var i = section1SymbolValue.options[section1SymbolValue.selectedIndex].value;
+		if (i === "None") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/none.png";
+		} else if (i === "Bullets") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/bullets.png";
+		} else if (i === "Checkboxes") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/checkboxes.png";
+		} else if (i === "Mon-Sun") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/mon-sun.png";
+		} else if (i === "Numbered") {
+			dashSection1.src = "../assets/images/hughes/dashSection1/numbers.png";
+		}
+	});
 
-// 	section2Text.addEventListener("mouseover", function(){
-// 		dashSection2.style.outline = "solid 2px red";
-// 	});
+	section2Text.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
 
-// 	section2Text.addEventListener("mouseout", function(){
-// 		dashSection2.style.outline = "none";
-// 	});
+	section2Text.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
 
-// 	section2Text1.addEventListener("mouseover", function(){
-// 		dashSection2.style.outline = "solid 2px red";
-// 	});
+	section2Text1.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
 
-// 	section2Text1.addEventListener("mouseout", function(){
-// 		dashSection2.style.outline = "none";
-// 	});
+	section2Text1.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
 
-// 	section2Text2.addEventListener("mouseover", function(){
-// 		dashSection2.style.outline = "solid 2px red";
-// 	});
+	section2Text2.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
 
-// 	section2Text2.addEventListener("mouseout", function(){
-// 		dashSection2.style.outline = "none";
-// 	});
+	section2Text2.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
 
-// 	section2Symbol.addEventListener("mouseover", function(){
-// 		dashSection2.style.outline = "solid 2px red";
-// 	});
+	section2Symbol.addEventListener("mouseover", function(){
+		dashSection2.style.outline = "solid 2px red";
+	});
 
-// 	section2Symbol.addEventListener("mouseout", function(){
-// 		dashSection2.style.outline = "none";
-// 	});
+	section2Symbol.addEventListener("mouseout", function(){
+		dashSection2.style.outline = "none";
+	});
 
-// 	section2Symbol.addEventListener("change", function(){		
-// 		var i = section2SymbolValue.options[section2SymbolValue.selectedIndex].value;
-// 		if (i === "Checkboxes") {
-// 			dashSection2.src = "../assets/images/hughes/dashSection2/checkboxes.png";
-// 		} else if (i === "None") {
-// 			dashSection2.src = "../assets/images/hughes/dashSection2/none.png";
-// 		} else if (i === "Bullets") {
-// 			dashSection2.src = "../assets/images/hughes/dashSection2/bullets.png";
-// 		} 
-// 	});
+	section2Symbol.addEventListener("change", function(){		
+		var i = section2SymbolValue.options[section2SymbolValue.selectedIndex].value;
+		if (i === "Checkboxes") {
+			dashSection2.src = "../assets/images/hughes/dashSection2/checkboxes.png";
+		} else if (i === "None") {
+			dashSection2.src = "../assets/images/hughes/dashSection2/none.png";
+		} else if (i === "Bullets") {
+			dashSection2.src = "../assets/images/hughes/dashSection2/bullets.png";
+		} 
+	});
 
-// 	section3Text.addEventListener("mouseover", function(){
-// 		dashSection3.style.outline = "solid 2px red";
-// 	});
+	section3Text.addEventListener("mouseover", function(){
+		dashSection3.style.outline = "solid 2px red";
+	});
 
-// 	section3Text.addEventListener("mouseout", function(){
-// 		dashSection3.style.outline = "none";
-// 	});
+	section3Text.addEventListener("mouseout", function(){
+		dashSection3.style.outline = "none";
+	});
 
-// 	section3Symbol.addEventListener("mouseover", function(){
-// 		dashSection3.style.outline = "solid 2px red";
-// 	});
+	section3Symbol.addEventListener("mouseover", function(){
+		dashSection3.style.outline = "solid 2px red";
+	});
 
-// 	section3Symbol.addEventListener("mouseout", function(){
-// 		dashSection3.style.outline = "none";
-// 	});
+	section3Symbol.addEventListener("mouseout", function(){
+		dashSection3.style.outline = "none";
+	});
 
-// 	section3Symbol.addEventListener("change", function(){		
-// 		var i = section3SymbolValue.options[section3SymbolValue.selectedIndex].value;
-// 		if (i === "None") {
-// 			dashSection3.src = "../assets/images/hughes/dashSection3/none.png";
-// 		} else if (i === "Bullets") {
-// 			dashSection3.src = "../assets/images/hughes/dashSection3/bullets.png";
-// 		} else if (i === "Checkboxes") {
-// 			dashSection3.src = "../assets/images/hughes/dashSection3/checkboxes.png";
-// 		}
-// 	});
+	section3Symbol.addEventListener("change", function(){		
+		var i = section3SymbolValue.options[section3SymbolValue.selectedIndex].value;
+		if (i === "None") {
+			dashSection3.src = "../assets/images/hughes/dashSection3/none.png";
+		} else if (i === "Bullets") {
+			dashSection3.src = "../assets/images/hughes/dashSection3/bullets.png";
+		} else if (i === "Checkboxes") {
+			dashSection3.src = "../assets/images/hughes/dashSection3/checkboxes.png";
+		}
+	});
 	
-// 	header1Text.addEventListener("mouseover", function(){
-// 		weekdayHeaderL.style.outline = "solid 2px red";
-// 		weekdayHeaderR.style.outline = "solid 2px red";
-// 		weekendHeader34.style.outline = "solid 2px red";
-// 		weekendHeaderFull.style.outline = "solid 2px red";
-// 	});
+	header1Text.addEventListener("mouseover", function(){
+		weekdayHeaderL.style.outline = "solid 2px red";
+		weekdayHeaderR.style.outline = "solid 2px red";
+		weekendHeader34.style.outline = "solid 2px red";
+		weekendHeaderFull.style.outline = "solid 2px red";
+	});
 
-// 	header1Text.addEventListener("mouseout", function(){
-// 		weekdayHeaderL.style.outline = "none";
-// 		weekdayHeaderR.style.outline = "none";
-// 		weekendHeader34.style.outline = "none";
-// 		weekendHeaderFull.style.outline = "none";
-// 	});
+	header1Text.addEventListener("mouseout", function(){
+		weekdayHeaderL.style.outline = "none";
+		weekdayHeaderR.style.outline = "none";
+		weekendHeader34.style.outline = "none";
+		weekendHeaderFull.style.outline = "none";
+	});
 
-// 	header1Symbol.addEventListener("mouseover", function(){
-// 		weekdayHeaderL.style.outline = "solid 2px red";
-// 		weekdayHeaderR.style.outline = "solid 2px red";
-// 		weekendHeader34.style.outline = "solid 2px red";
-// 		weekendHeaderFull.style.outline = "solid 2px red";
-// 	});
+	header1Symbol.addEventListener("mouseover", function(){
+		weekdayHeaderL.style.outline = "solid 2px red";
+		weekdayHeaderR.style.outline = "solid 2px red";
+		weekendHeader34.style.outline = "solid 2px red";
+		weekendHeaderFull.style.outline = "solid 2px red";
+	});
 
-// 	header1Symbol.addEventListener("mouseout", function(){
-// 		weekdayHeaderL.style.outline = "none";
-// 		weekdayHeaderR.style.outline = "none";
-// 		weekendHeader34.style.outline = "none";
-// 		weekendHeaderFull.style.outline = "none";
-// 	});
+	header1Symbol.addEventListener("mouseout", function(){
+		weekdayHeaderL.style.outline = "none";
+		weekdayHeaderR.style.outline = "none";
+		weekendHeader34.style.outline = "none";
+		weekendHeaderFull.style.outline = "none";
+	});
 
-// 	header1Symbol.addEventListener("change", function(){		
-// 		var i = header1SymbolValue.options[header1SymbolValue.selectedIndex].value;
-// 		if (i === "None") {
-// 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/none.png";
-// 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/none.png";
-// 			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/none.png";
-// 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/none.png";
-// 		} else if (i === "Bullets") {
-// 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/bullets.png";
-// 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
-// 			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/bullets.png";
-// 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
-// 		} else if (i === "Checkboxes") {
-// 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/checkboxes.png";
-// 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
-// 			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/checkboxes.png";
-// 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
-// 		} else if (i === "Sun-Mon") {
-// 			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/week.png";
-// 			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/week.png";
-// 			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/week.png";
-// 			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/week.png";
-// 		}
-// 	});
+	header1Symbol.addEventListener("change", function(){		
+		var i = header1SymbolValue.options[header1SymbolValue.selectedIndex].value;
+		if (i === "None") {
+			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/none.png";
+			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/none.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/none.png";
+			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/none.png";
+		} else if (i === "Bullets") {
+			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/bullets.png";
+			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/bullets.png";
+			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/bullets.png";
+		} else if (i === "Checkboxes") {
+			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/checkboxes.png";
+			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/checkboxes.png";
+			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/checkboxes.png";
+		} else if (i === "Sun-Mon") {
+			weekdayHeaderL.src = "../assets/images/hughes/dailyHeaderLeft/week.png";
+			weekdayHeaderR.src = "../assets/images/hughes/dailyHeaderRight/week.png";
+			weekendHeader34.src = "../assets/images/hughes/weekendHeader3-4/week.png";
+			weekendHeaderFull.src = "../assets/images/hughes/dailyHeaderRight/week.png";
+		}
+	});
 
-// 	schedule.addEventListener("mouseover", function(){
-// 		weekdayScheduleL.style.outline = "solid 2px red";
-// 		weekdayScheduleR.style.outline = "solid 2px red";
-// 		weekendSchedule34.style.outline = "solid 2px red";
-// 		weekendScheduleFull.style.outline = "solid 2px red";
-// 	});
+	schedule.addEventListener("mouseover", function(){
+		weekdayScheduleL.style.outline = "solid 2px red";
+		weekdayScheduleR.style.outline = "solid 2px red";
+		weekendSchedule34.style.outline = "solid 2px red";
+		weekendScheduleFull.style.outline = "solid 2px red";
+	});
 
-// 	schedule.addEventListener("mouseout", function(){
-// 		weekdayScheduleL.style.outline = "none";
-// 		weekdayScheduleR.style.outline = "none";
-// 		weekendSchedule34.style.outline = "none";
-// 		weekendScheduleFull.style.outline = "none";
-// 	});
+	schedule.addEventListener("mouseout", function(){
+		weekdayScheduleL.style.outline = "none";
+		weekdayScheduleR.style.outline = "none";
+		weekendSchedule34.style.outline = "none";
+		weekendScheduleFull.style.outline = "none";
+	});
 
-// 	schedule.addEventListener("change", function(){		
-// 		var i = scheduleValue.options[scheduleValue.selectedIndex].value;
-// 		if (i === "4 Lines; 30 Minute Labels") {
-// 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/430.png";
-// 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/430.png";
-// 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/430.png";
-// 			weekendScheduleFull.src = weekdayScheduleR.src;
-// 		} else if (i === "3 Lines; 1 Hour Labels") {
-// 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/31.png";
-// 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/31.png";
-// 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/31.png";
-// 			weekendScheduleFull.src = weekdayScheduleR.src;
-// 		} else if (i === "2 Lines; 30 Minute Labels") {
-// 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/230.png";
-// 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/230.png";
-// 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/230.png";
-// 			weekendScheduleFull.src = weekdayScheduleR.src;
-// 		} else if (i === "2 Lines; 1 Hour Labels") {
-// 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/21.png";
-// 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/21.png";
-// 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/21.png";
-// 			weekendScheduleFull.src = weekdayScheduleR.src;
-// 		} else if (i === "No Lines; 30 Minute Labels") {
-// 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no30.png";
-// 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no30.png";
-// 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no30.png";
-// 			weekendScheduleFull.src = weekdayScheduleR.src;
-// 		} else if (i === "No Lines; 1 Hour Labels") {
-// 			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no1.png";
-// 			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no1.png";
-// 			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no1.png";
-// 			weekendScheduleFull.src = weekdayScheduleR.src;
-// 		}
-// 	});
+	schedule.addEventListener("change", function(){		
+		var i = scheduleValue.options[scheduleValue.selectedIndex].value;
+		if (i === "4 Lines; 30 Minute Labels") {
+			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/430.png";
+			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/430.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/430.png";
+			weekendScheduleFull.src = weekdayScheduleR.src;
+		} else if (i === "3 Lines; 1 Hour Labels") {
+			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/31.png";
+			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/31.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/31.png";
+			weekendScheduleFull.src = weekdayScheduleR.src;
+		} else if (i === "2 Lines; 30 Minute Labels") {
+			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/230.png";
+			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/230.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/230.png";
+			weekendScheduleFull.src = weekdayScheduleR.src;
+		} else if (i === "2 Lines; 1 Hour Labels") {
+			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/21.png";
+			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/21.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/21.png";
+			weekendScheduleFull.src = weekdayScheduleR.src;
+		} else if (i === "No Lines; 30 Minute Labels") {
+			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no30.png";
+			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no30.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no30.png";
+			weekendScheduleFull.src = weekdayScheduleR.src;
+		} else if (i === "No Lines; 1 Hour Labels") {
+			weekdayScheduleL.src = "../assets/images/hughes/dailyScheduleLeft/no1.png";
+			weekdayScheduleR.src = "../assets/images/hughes/dailyScheduleRight/no1.png";
+			weekendSchedule34.src = "../assets/images/hughes/weekendSchedule3-4/no1.png";
+			weekendScheduleFull.src = weekdayScheduleR.src;
+		}
+	});
 
-// 	startTime.addEventListener("mouseover", function(){
-// 		weekdayScheduleL.style.outline = "solid 2px red";
-// 		weekdayScheduleR.style.outline = "solid 2px red";
-// 	});
+	startTime.addEventListener("mouseover", function(){
+		weekdayScheduleL.style.outline = "solid 2px red";
+		weekdayScheduleR.style.outline = "solid 2px red";
+	});
 
-// 	startTime.addEventListener("mouseout", function(){
-// 		weekdayScheduleL.style.outline = "none";
-// 		weekdayScheduleR.style.outline = "none";
-// 	});
+	startTime.addEventListener("mouseout", function(){
+		weekdayScheduleL.style.outline = "none";
+		weekdayScheduleR.style.outline = "none";
+	});
 
-// 	weekendStyle.addEventListener("mouseover", function(){
-// 		weekendSchedule34.style.outline = "solid 2px red";
-// 		weekendSchedule12.style.outline = "solid 2px red";
-// 		weekendScheduleFull.style.outline = "solid 2px red";
-// 	});
+	weekendStyle.addEventListener("mouseover", function(){
+		weekendSchedule34.style.outline = "solid 2px red";
+		weekendSchedule12.style.outline = "solid 2px red";
+		weekendScheduleFull.style.outline = "solid 2px red";
+	});
 
-// 	weekendStyle.addEventListener("mouseout", function(){
-// 		weekendSchedule34.style.outline = "none";
-// 		weekendSchedule12.style.outline = "none";
-// 		weekendScheduleFull.style.outline = "none";
-// 	});
+	weekendStyle.addEventListener("mouseout", function(){
+		weekendSchedule34.style.outline = "none";
+		weekendSchedule12.style.outline = "none";
+		weekendScheduleFull.style.outline = "none";
+	});
 
-// 	weekendStyle.addEventListener("change", function(){		
-// 		var i = weekendStyleValue.options[weekendStyleValue.selectedIndex].value;
-// 		if (i === "Full Weekend") {
-// 			weekendFullHeaderDiv.style.display = "block";
-// 			weekendFullScheduleDiv.style.display = "block";
-// 			weekend34HeaderDiv.style.display = "none";
-// 			weekend34ScheduleDiv.style.display = "none";
-// 			weekendNoteDiv.style.display = "none";			
-// 			weekend12ScheduleDiv.style.display = "none";
-// 			weekend12ColumnsDiv.style.display = "none";
-// 			weekendColumnRight.style.display = "none";
-// 			weekendColumnLeft.style.display = "none";
-// 			stickyNote.style.display = "none";
-// 			weekendHalfSchedule.style.display = "none";
-// 		} else if (i === "3/4 Weekend") {
-// 			weekendFullHeaderDiv.style.display = "none";
-// 			weekendFullScheduleDiv.style.display = "none";
-// 			weekend34HeaderDiv.style.display = "block";
-// 			weekend34ScheduleDiv.style.display = "flex";
-// 			weekendNoteDiv.style.display = "block";
-// 			weekendSchedule34.style.display = "flex";
-// 			weekend12ScheduleDiv.style.display = "none";
-// 			weekend12ColumnsDiv.style.display = "none";
-// 			weekendColumnRight.style.display = "none";
-// 			weekendColumnLeft.style.display = "none";
-// 			stickyNote.style.display = "block";
-// 			weekendHalfSchedule.style.display = "none";
-// 		} else if (i === "1/2 Weekend") {
-// 			weekendFullHeaderDiv.style.display = "none";
-// 			weekendFullScheduleDiv.style.display = "none";
-// 			weekend34HeaderDiv.style.display = "none";
-// 			weekend34ScheduleDiv.style.display = "none";
-// 			weekendSchedule34.style.display = "none";
-// 			weekendNoteDiv.style.display = "block";
-// 			weekend12ScheduleDiv.style.display = "block";
-// 			weekend12ColumnsDiv.style.display = "flex";
-// 			weekendColumnRight.style.display = "block";
-// 			weekendColumnLeft.style.display = "block";
-// 			stickyNote.style.display = "block";
-// 			weekendHalfSchedule.style.display = "block";
-// 		}	
-// 	});
+	weekendStyle.addEventListener("change", function(){		
+		var i = weekendStyleValue.options[weekendStyleValue.selectedIndex].value;
+		if (i === "Full Weekend") {
+			weekendFullHeaderDiv.style.display = "block";
+			weekendFullScheduleDiv.style.display = "block";
+			weekend34HeaderDiv.style.display = "none";
+			weekend34ScheduleDiv.style.display = "none";
+			weekendNoteDiv.style.display = "none";			
+			weekend12ScheduleDiv.style.display = "none";
+			weekend12ColumnsDiv.style.display = "none";
+			weekendColumnRight.style.display = "none";
+			weekendColumnLeft.style.display = "none";
+			stickyNote.style.display = "none";
+			weekendHalfSchedule.style.display = "none";
+		} else if (i === "3/4 Weekend") {
+			weekendFullHeaderDiv.style.display = "none";
+			weekendFullScheduleDiv.style.display = "none";
+			weekend34HeaderDiv.style.display = "block";
+			weekend34ScheduleDiv.style.display = "flex";
+			weekendNoteDiv.style.display = "block";
+			weekendSchedule34.style.display = "flex";
+			weekend12ScheduleDiv.style.display = "none";
+			weekend12ColumnsDiv.style.display = "none";
+			weekendColumnRight.style.display = "none";
+			weekendColumnLeft.style.display = "none";
+			stickyNote.style.display = "block";
+			weekendHalfSchedule.style.display = "none";
+		} else if (i === "1/2 Weekend") {
+			weekendFullHeaderDiv.style.display = "none";
+			weekendFullScheduleDiv.style.display = "none";
+			weekend34HeaderDiv.style.display = "none";
+			weekend34ScheduleDiv.style.display = "none";
+			weekendSchedule34.style.display = "none";
+			weekendNoteDiv.style.display = "block";
+			weekend12ScheduleDiv.style.display = "block";
+			weekend12ColumnsDiv.style.display = "flex";
+			weekendColumnRight.style.display = "block";
+			weekendColumnLeft.style.display = "block";
+			stickyNote.style.display = "block";
+			weekendHalfSchedule.style.display = "block";
+		}	
+	});
 
 
-// 	weekendHalfSchedule.addEventListener("mouseover", function(){
-// 		weekendSchedule12.style.outline = "solid 2px red";
-// 	});
+	weekendHalfSchedule.addEventListener("mouseover", function(){
+		weekendSchedule12.style.outline = "solid 2px red";
+	});
 
-// 	weekendHalfSchedule.addEventListener("mouseout", function(){
-// 		weekendSchedule12.style.outline = "none";
-// 	});
+	weekendHalfSchedule.addEventListener("mouseout", function(){
+		weekendSchedule12.style.outline = "none";
+	});
 
-// 	weekendHalfSchedule.addEventListener("change", function(){		
-// 		var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
-// 		if (i === "None") {
-// 			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/none.png";
-// 		} else if (i === "AM/PM") {
-// 			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/ampm.png";
-// 		} 
-// 	});
+	weekendHalfSchedule.addEventListener("change", function(){		
+		var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
+		if (i === "None") {
+			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/none.png";
+		} else if (i === "AM/PM") {
+			weekendSchedule12.src = "../assets/images/hughes/weekendSchedule1-2/ampm.png";
+		} 
+	});
 
-// 	weekendColumnLeft.addEventListener("change", function(){		
-// 		var i = weekendColumnLeftValue.options[weekendColumnLeftValue.selectedIndex].value;
-// 		if (i === "None") {
-// 			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/none.png";
-// 		} else if (i === "Bullets") {
-// 			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/bullets.png";
-// 		} else if (i === "Checkboxes") {
-// 			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/checkboxes.png";
-// 		} else if (i === "Reflection") {
-// 			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/reflection.png";
-// 		}
-// 	});
+	weekendColumnLeft.addEventListener("change", function(){		
+		var i = weekendColumnLeftValue.options[weekendColumnLeftValue.selectedIndex].value;
+		if (i === "None") {
+			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/none.png";
+		} else if (i === "Bullets") {
+			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/bullets.png";
+		} else if (i === "Checkboxes") {
+			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/checkboxes.png";
+		} else if (i === "Reflection") {
+			weekend12ColumnL.src = "../assets/images/hughes/weekendColumn1-2/reflection.png";
+		}
+	});
 
-// 	weekendColumnRight.addEventListener("change", function(){		
-// 		var i = weekendColumnRightValue.options[weekendColumnRightValue.selectedIndex].value;
-// 		if (i === "None") {
-// 			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/none.png";
-// 		} else if (i === "Bullets") {
-// 			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/bullets.png";
-// 		} else if (i === "Checkboxes") {
-// 			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/checkboxes.png";
-// 		} else if (i === "Reflection") {
-// 			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/reflection.png";
-// 		}
-// 	});
+	weekendColumnRight.addEventListener("change", function(){		
+		var i = weekendColumnRightValue.options[weekendColumnRightValue.selectedIndex].value;
+		if (i === "None") {
+			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/none.png";
+		} else if (i === "Bullets") {
+			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/bullets.png";
+		} else if (i === "Checkboxes") {
+			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/checkboxes.png";
+		} else if (i === "Reflection") {
+			weekend12ColumnR.src = "../assets/images/hughes/weekendColumn1-2/reflection.png";
+		}
+	});
 
-// 	weekendColumnLeft.addEventListener("mouseover", function(){
-// 		weekend12ColumnL.style.outline = "solid 2px red";
-// 	});
+	weekendColumnLeft.addEventListener("mouseover", function(){
+		weekend12ColumnL.style.outline = "solid 2px red";
+	});
 
-// 	weekendColumnLeft.addEventListener("mouseout", function(){
-// 		weekend12ColumnL.style.outline = "none";
-// 	});
+	weekendColumnLeft.addEventListener("mouseout", function(){
+		weekend12ColumnL.style.outline = "none";
+	});
 
-// 	weekendColumnRight.addEventListener("mouseover", function(){
-// 		weekend12ColumnR.style.outline = "solid 2px red";
-// 	});
+	weekendColumnRight.addEventListener("mouseover", function(){
+		weekend12ColumnR.style.outline = "solid 2px red";
+	});
 
-// 	weekendColumnRight.addEventListener("mouseout", function(){
-// 		weekend12ColumnR.style.outline = "none";
-// 	});
+	weekendColumnRight.addEventListener("mouseout", function(){
+		weekend12ColumnR.style.outline = "none";
+	});
 
-// 	stickyNote.addEventListener("mouseover", function(){
-// 		weekendNote.style.outline = "solid 2px red";
-// 	});
+	stickyNote.addEventListener("mouseover", function(){
+		weekendNote.style.outline = "solid 2px red";
+	});
 
-// 	stickyNote.addEventListener("mouseout", function(){
-// 		weekendNote.style.outline = "none";
-// 	});
+	stickyNote.addEventListener("mouseout", function(){
+		weekendNote.style.outline = "none";
+	});
 
-// 	stickyNote.addEventListener("change", function(){		
-// 		var i = stickyNoteValue.options[stickyNoteValue.selectedIndex].value;
-// 		if (i === "Lined") {
-// 			weekendNote.src = "../assets/images/hughes/weekendNotes/lined.png";
-// 		} else if (i === "Blank") {
-// 			weekendNote.src = "../assets/images/hughes/weekendNotes/blank.png";
-// 		} else if (i === "Grid") {
-// 			weekendNote.src = "../assets/images/hughes/weekendNotes/grid.png";
-// 		}		
-// 	});
+	stickyNote.addEventListener("change", function(){		
+		var i = stickyNoteValue.options[stickyNoteValue.selectedIndex].value;
+		if (i === "Lined") {
+			weekendNote.src = "../assets/images/hughes/weekendNotes/lined.png";
+		} else if (i === "Blank") {
+			weekendNote.src = "../assets/images/hughes/weekendNotes/blank.png";
+		} else if (i === "Grid") {
+			weekendNote.src = "../assets/images/hughes/weekendNotes/grid.png";
+		}		
+	});
 
-// 	} else if (productTitle.innerHTML == "Gaines") {
+	} else if (productTitle.innerHTML == "Gaines") {
 
-// 		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses gaines__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/gaines/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses gaines__dashboard" id="dashboard"><div class="dynamicPreviewClasses gaines__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/gaines/quote/yesBlank.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/gaines/dashSection1/none.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/gaines/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/gaines/dashSection3/none.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/gaines/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses gaines__dailyLeft" id="gaines__dailyLeft"><div class="dynamicPreviewClasses gaines__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/gaines/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses gaines__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/gaines/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses gaines__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/gaines/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses gaines__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/gaines/headerRight.png"></div><div class="dynamicPreviewClasses contentRight">	<div class="dynamicPreviewClasses gaines__dailyRight"  id="gaines__dailyRight"><div class="dynamicPreviewClasses gaines__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/gaines/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses gaines__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/gaines/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses gaines__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/gaines/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses gaines__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses gaines__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/gaines/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses gaines__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/gaines/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses gaines__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/gaines/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses gaines__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses gaines__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/gaines/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses gaines__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/gaines/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses gaines__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/gaines/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses gaines__1-2columns"><div class="dynamicPreviewClasses gaines__1-2columnLeft" id="gaines__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/gaines/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses gaines__1-2columnRight" id="gaines__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/gaines/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses gaines__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/gaines/weekendNotes/lined.png"></div></div></div></div></div>';
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses gaines__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/gaines/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses gaines__dashboard" id="dashboard"><div class="dynamicPreviewClasses gaines__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/gaines/quote/yesBlank.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/gaines/dashSection1/none.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/gaines/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/gaines/dashSection3/none.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/gaines/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses gaines__dailyLeft" id="gaines__dailyLeft"><div class="dynamicPreviewClasses gaines__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/gaines/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses gaines__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/gaines/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses gaines__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/gaines/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses gaines__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/gaines/headerRight.png"></div><div class="dynamicPreviewClasses contentRight">	<div class="dynamicPreviewClasses gaines__dailyRight"  id="gaines__dailyRight"><div class="dynamicPreviewClasses gaines__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/gaines/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses gaines__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/gaines/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses gaines__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/gaines/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses gaines__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses gaines__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/gaines/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses gaines__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/gaines/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses gaines__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/gaines/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses gaines__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses gaines__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/gaines/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses gaines__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/gaines/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses gaines__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/gaines/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses gaines__1-2columns"><div class="dynamicPreviewClasses gaines__1-2columnLeft" id="gaines__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/gaines/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses gaines__1-2columnRight" id="gaines__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/gaines/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses gaines__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/gaines/weekendNotes/lined.png"></div></div></div></div></div>';
 	
-// 	}
+	}
 
 
 	
