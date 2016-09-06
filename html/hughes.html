@@ -1,545 +1,143 @@
-<!doctype html>
-<html>
-<head>
- <script type="text/javascript" src="hughes.js"></script>
- <link rel="stylesheet" type="text/css" href="hughes.css">
- <title>Hughes Customization</title>
-
-</head>
-<body>
-
-<div class="dynamicPreviewClasses content">
-
 <!-- ############################ Planner ################################ -->
 	
-	<div class="dynamicPreviewClasses planner">
+<div class="dynamicPreviewClasses planner">
 
-		<div class="dynamicPreviewClasses hughes__left">
+	<div class="dynamicPreviewClasses hughes__left">
 
-			<div class="dynamicPreviewClasses headerLeft">
-				<img class="dynamicPreviewClasses" src="images/hughes/headerLeft.png">
-			</div>
-
-			<div class="dynamicPreviewClasses contentLeft">
-				
-				<div class="dynamicPreviewClasses hughes__dashboard" id="dashboard">
-
-					<div class="dynamicPreviewClasses hughes__dashboardQuote">
-					<!-- Dashboard Quote Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="dashQuote" src="images/hughes/quote/yesBlank.png">
-
-					</div>
-
-					<div class="dynamicPreviewClasses hughes__dashboardSection1">
-					<!-- Dashboard Section 1 Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="dashSection1" src="images/hughes/dashSection1/none.png">
-
-					</div>
-					<div class="dynamicPreviewClasses hughes__dashboardSection2">
-					<!-- Dashboard Section 2 Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="dashSection2" src="images/hughes/dashSection2/checkboxes.png">
-
-					</div>
-
-					<div class="dynamicPreviewClasses hughes__dashboardSection3">
-					<!-- Dashboard Section 3 Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="dashSection3" src="images/hughes/dashSection3/none.png">
-
-					</div>
-
-				</div>
-
-				<div class="dynamicPreviewClasses hughes__dailyLeft" id="hughes__dailyLeft">
-
-					<div class="dynamicPreviewClasses hughes__dailyLeftHeader">
-					<!-- Left side daily header Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="weekdayHeaderL" src="images/hughes/dailyHeaderLeft/none.png">
-
-					</div>
-
-					<div class="dynamicPreviewClasses hughes__dailyLeftSchedule">
-					<!-- Left side daily schedule Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/hughes/dailyScheduleLeft/31.png">
-
-					</div>
-				</div>
-			</div>
+		<div class="dynamicPreviewClasses headerLeft">
+			<img class="dynamicPreviewClasses" src="images/hughes/headerLeft.png">
 		</div>
 
-		<div class="dynamicPreviewClasses hughes__right">
+		<div class="dynamicPreviewClasses contentLeft">
+			
+			<div class="dynamicPreviewClasses hughes__dashboard" id="dashboard">
 
-			<div class="dynamicPreviewClasses headerRight">
-				<img class="dynamicPreviewClasses" src="images/hughes/headerRight.png">
-			</div>
+				<div class="dynamicPreviewClasses hughes__dashboardQuote">
+				<!-- Dashboard Quote Image goes here -->
 
-			<div class="dynamicPreviewClasses contentRight">	
+					<img class="dynamicPreviewClasses" id="dashQuote" src="images/hughes/quote/yesBlank.png">
 
-				<div class="dynamicPreviewClasses hughes__dailyRight"  id="hughes__dailyRight">
-					<div class="dynamicPreviewClasses hughes__dailyRightHeader">
-					<!-- Right side daily header Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/hughes/dailyHeaderRight/none.png">
-
-					</div>
-
-					<div class="dynamicPreviewClasses hughes__dailyRightSchedule">
-					<!-- Right side daily schedule Image goes here -->
-
-						<img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/hughes/dailyScheduleRight/31.png">
-
-					</div>
 				</div>
 
-				<div class="dynamicPreviewClasses hughes__weekend" id="weekendDiv">
-					
-					<div id="weekendFullHeaderDiv" class="dynamicPreviewClasses hughes__fullWeekendHeader">
-						<!-- full weekend header Image goes here -->
-						<img class="dynamicPreviewClasses" id="weekendHeaderFull" src="images/hughes/dailyHeaderRight/none.png">
-					</div>
+				<div class="dynamicPreviewClasses hughes__dashboardSection1">
+				<!-- Dashboard Section 1 Image goes here -->
 
-					<div id="weekendFullScheduleDiv" class="dynamicPreviewClasses hughes__fullWeekendSchedule">
-						<!-- full weekend schedule Image goes here -->
-						<img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/hughes/dailyScheduleRight/31.png">
-					</div>
-					
+					<img class="dynamicPreviewClasses" id="dashSection1" src="images/hughes/dashSection1/none.png">
 
+				</div>
+				<div class="dynamicPreviewClasses hughes__dashboardSection2">
+				<!-- Dashboard Section 2 Image goes here -->
 
-					<div class="dynamicPreviewClasses hughes__3-4weekend">
-						
-						<div id="weekend34HeaderDiv" class="dynamicPreviewClasses hughes__3-4weekendHeader">
-							<!-- 3/4 or 1/2 weekend header Image goes here -->
-							<img class="dynamicPreviewClasses" id="weekendHeader34" src="images/hughes/weekendHeader3-4/none.png">
+					<img class="dynamicPreviewClasses" id="dashSection2" src="images/hughes/dashSection2/checkboxes.png">
 
-						</div>
+				</div>
 
-						<div id="weekend34ScheduleDiv" class="dynamicPreviewClasses hughes__3-4weekendSchedule">
-							<!-- 3/4 weekend schedule Image goes here -->
-							<img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/hughes/weekendSchedule3-4/31.png">
-							
-						</div>
+				<div class="dynamicPreviewClasses hughes__dashboardSection3">
+				<!-- Dashboard Section 3 Image goes here -->
 
-						<div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses hughes__1-2weekendSchedule">
-							<!-- 1/2 weekend schedule Image goes here -->
-							<img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/hughes/weekendSchedule1-2/31.png">
-						</div>
+					<img class="dynamicPreviewClasses" id="dashSection3" src="images/hughes/dashSection3/none.png">
 
-						<div id="weekend12ColumnsDiv" class="dynamicPreviewClasses hughes__1-2columns">
-							<div class="dynamicPreviewClasses hughes__1-2columnLeft" id="hughes__1-2columnLeft">
-								<!-- 1/2 weekend left column Image goes here -->
-								<img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/hughes/weekendColumn1-2/bullets.png">
-							</div>
+				</div>
 
-							<div class="dynamicPreviewClasses hughes__1-2columnRight" id="hughes__1-2columnRight">
-								<!-- 1/2 weekend right column Image goes here -->
-								<img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/hughes/weekendColumn1-2/reflection.png">
-							</div>
-						</div>
+			</div>
 
-					</div>
+			<div class="dynamicPreviewClasses hughes__dailyLeft" id="hughes__dailyLeft">
 
-					<div id="weekendNoteDiv" class="dynamicPreviewClasses hughes__weekendNote">
-						<!-- 3/4 or 1/2 weekend notes Image goes here -->
+				<div class="dynamicPreviewClasses hughes__dailyLeftHeader">
+				<!-- Left side daily header Image goes here -->
 
-							<img class="dynamicPreviewClasses" id="weekendNote" src="images/hughes/weekendNotes/lined.png">
+					<img class="dynamicPreviewClasses" id="weekdayHeaderL" src="images/hughes/dailyHeaderLeft/none.png">
 
-					</div>
+				</div>
+
+				<div class="dynamicPreviewClasses hughes__dailyLeftSchedule">
+				<!-- Left side daily schedule Image goes here -->
+
+					<img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/hughes/dailyScheduleLeft/31.png">
+
 				</div>
 			</div>
 		</div>
 	</div>
 
-<!-- ############################## Form ################################# -->
-	
-	<div class="dynamicPreviewClasses form">
+	<div class="dynamicPreviewClasses hughes__right">
 
-		<div class="dynamicPreviewClasses formField">
-
-		<div id="standardOptionsButton" class="dynamicPreviewClasses formField__option clickable" >Hughes</div>
-
-		<div class="dynamicPreviewClasses standardOptions">
-
-			<div id="customerNameFields" class="dynamicPreviewClasses customerName">
-
-				<div class="dynamicPreviewClasses formField__title">Name</div>
-
-				<div class="dynamicPreviewClasses formField__info">Enter name to appear on cover</div>
-
-				<input class="dynamicPreviewClasses formField__input nameField" id="firstName" type="text" name="firstName" placeholder="First Name">
-
-				<input class="dynamicPreviewClasses formField__input nameField" id="lastName" type="text" name="lastName" placeholder="Last Name">
-			</div>
-
-			<div id="startMonthFields" class="dynamicPreviewClasses startMonth">
-
-				<div class="dynamicPreviewClasses formField__title">Start Month</div>
-
-				<div class="dynamicPreviewClasses formField__info">Applicable to daily, weekly, and/or monthly layouts chosen</div>
-
-				<select class="dynamicPreviewClasses formField__input" id="startMonth">
-					<option value="">August 2016</option>
-					<option value="">September 2016</option>
-					<option value="">October 2016</option>
-					<option value="">November 2016</option>
-					<option value="">December 2016</option>
-					<option value="">January 2017</option>
-					<option value="">February 2017</option>
-					<option value="">March 2017</option>
-					<option value="">April 2017</option>
-					<option value="">May 2017</option>
-				</select>
-			</div>
-
-			<div id="monthlyInsertFields" class="dynamicPreviewClasses monthlyInsert">
-
-				<div class="dynamicPreviewClasses formField__title">Monthly Insert</div>
-
-				<div class="dynamicPreviewClasses formField__info">LH (Left-hand): Monthly layout will be on the left page. <br>
-				RH (Right-hand): Monthly layout will be on the right page.</div>
-
-				<select class="dynamicPreviewClasses formField__input" id="monthlyInsert">
-					<option value="2PageSpread">2 Page Spread</option>
-					<option value="1Page(RH)+NotesPage">1 Page (RH) + Notes Page</option>
-					<option value="1Page(LH)+NotesPage">1 Page (LH) + Notes Page</option>
-					<option value="1Page(RH)+Artwork Page">1 Page (RH) + Artwork Page</option>
-					<option value="1Page(LH)+ArtworkPage">1 Page (LH) + Artwork Page</option>
-					<option value="1Page(RH)+ColoringPage">1 Page (RH) + Coloring Page</option>
-					<option value="1Page(LH)+ColoringPage">1 Page (LH) + Coloring Page</option>
-				</select>
-			</div>
-
-			<div>
-
-				<div id="additionalPagesButton" class="dynamicPreviewClasses formField__title clickable">Additional Pages</div>
-
-				<div id="additionalPages" class="dynamicPreviewClasses additionalPages__options">
-
-					<div class="dynamicPreviewClasses formField__info">Select up to 5. See Additional Pages tab for descriptions.</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="missionStatement">Mission Statement</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="goalSetting">Goal-Setting</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="classSchedule">Class Schedule</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="importantDates">Important Dates</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="contacts">Contacts</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="shoppingList">Shopping List</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="listsBullets">Lists (Bullets)</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="listCheckboxes">List (Checkboxes)</div>	
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="notes">Notes</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="grid">Grid</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="coloringPages">Coloring Pages</div>
-					<div><input class="dynamicPreviewClasses formField__input" type="checkbox" name="additionalPage" value="passwords">Passwords</div>
-				</div>
-			</div>
-
+		<div class="dynamicPreviewClasses headerRight">
+			<img class="dynamicPreviewClasses" src="images/hughes/headerRight.png">
 		</div>
 
-		<div id="advancedOptionsButton" class="dynamicPreviewClasses formField__option clickable">Customization</div>
+		<div class="dynamicPreviewClasses contentRight">	
 
-		<div class="dynamicPreviewClasses advancedOptions">
+			<div class="dynamicPreviewClasses hughes__dailyRight"  id="hughes__dailyRight">
+				<div class="dynamicPreviewClasses hughes__dailyRightHeader">
+				<!-- Right side daily header Image goes here -->
 
-				<div id="dashboardOptionsButton" class="dynamicPreviewClasses advancedOptions__title clickable">Dashboard</div>
-			
-					<div class="dynamicPreviewClasses dashboard">
+					<img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/hughes/dailyHeaderRight/none.png">
 
-						<div id="quoteField" class="dynamicPreviewClasses quote">
-							<div class="dynamicPreviewClasses formField__title">Quote</div>
-							<select class="dynamicPreviewClasses formField__input" id="quote">
-								<option selected="selected" value="YesBlank">Yes: Blank</option>
-								<option value="YesAll">Yes: Prefilled (All Quotes)</option>
-								<option value="YesHalf">Yes: Prefilled (1/2 Verses)</option>
-								<option value="NoLines">No: 3 Blank Lines</option>
-							</select>
-						</div>
-
-						<div class="dynamicPreviewClasses section1Title" id="section1Field">
-
-							<div class="dynamicPreviewClasses formField__title">Section 1 Title</div>
-							
-							<input id="section1Title" class="dynamicPreviewClasses formField__input" type="text" name="section1Title" placeholder="Goals This Week:"><br>
-
-							<div class="dynamicPreviewClasses formField__title">Section 1 Symbols</div>
-
-							<select class="dynamicPreviewClasses formField__input" id="section1Symbol">
-								<option selected="selected" value="none">None</option>
-								<option value="bullets">Bullets</option>
-								<option value="checkboxes">Checkboxes</option>
-								<option value="week">Monday-Sunday</option>
-							</select>
-
-						</div>
-
-						<div class="dynamicPreviewClasses section2Title" id="section2Field">
-
-							<div class="dynamicPreviewClasses formField__title">Section 2 Title</div>
-							
-							<input id="section2Title" class="dynamicPreviewClasses formField__input" type="text" name="section2Title" placeholder="To Do This Week:"><br>
-
-							<div class="dynamicPreviewClasses formField__title">Section 2 Symbols</div>
-
-							<select class="dynamicPreviewClasses formField__input" id="section2Symbol">
-								<option value="none">None</option>
-								<option value="bullets">Bullets</option>
-								<option selected="selected" value="checkboxes">Checkboxes</option>
-							</select>
-
-							<div class="dynamicPreviewClasses formField__title">Section 2 Sub-Title 1</div>
-
-							<input id="section2Subtitle1" class="dynamicPreviewClasses formField__input" type="text" name="section2Subtitle1" placeholder="Academic:"><br>
-
-							<div class="dynamicPreviewClasses formField__title">Section 2 Sub-Title 2</div>
-
-							<input id="section2Subtitle2" class="dynamicPreviewClasses formField__input" type="text" name="section2Subtitle2" placeholder="Personal:"><br>
-
-						</div>
-
-						<div class="dynamicPreviewClasses section3Title" id="section3Field">
-
-							<div class="dynamicPreviewClasses formField__title">Section 3 Title</div>
-							
-							<input id="section3Title" class="dynamicPreviewClasses formField__input" type="text" name="section3Title" placeholder="Notes:"><br>
-
-							<div class="dynamicPreviewClasses formField__title">Section 3 Symbols</div>
-
-							<select class="dynamicPreviewClasses formField__input" id="section3Symbol">
-								<option selected="selected" value="none">None</option>
-								<option value="bullets">Bullets</option>
-								<option value="checkboxes">Checkboxes</option>
-							</select>
-
-						</div>
-						
-					</div>
-
-				<div id="weekdayOptionsButton" class="dynamicPreviewClasses advancedOptions__title clickable">Weekday</div>
-			
-					<div class="dynamicPreviewClasses weekday">
-
-						<div class="dynamicPreviewClasses formField__title">Header Overview</div>
-
-						<div class="dynamicPreviewClasses formField__info">Overview section = 1 line for all day events. Weekday Section 1 starts directly under date if no overview section</div>
-						
-						<select class="dynamicPreviewClasses formField__input" id="overview">
-								<option selected="selected" value="none">No Overview Section</option>
-								<option value="overview">Overview Section</option>
-						</select>
-					<div id="headerField">
-						<div class="dynamicPreviewClasses formField__title">Header 1: Title</div>
-
-						<div class="dynamicPreviewClasses formField__info">Text will be printed as entered: case and letter sensitive. Enter "NO TITLE" to leave a Section Title blank.</div>
-
-						<input id="header1Title" class="dynamicPreviewClasses formField__input" type="text" name="header1Title" placeholder="NO TITLE"><br>
-
-						<div class="dynamicPreviewClasses formField__title">Header 1: Symbols</div>
-
-						<select class="dynamicPreviewClasses formField__input" id="header1Symbol">
-							<option selected="selected" value="none">None</option>
-							<option value="bullets">Bullets</option>
-							<option value="checkboxes">Checkboxes</option>
-						</select>
-					</div>
-					<div id="scheduleField">
-						<div class="dynamicPreviewClasses formField__title">Schedule</div>
-
-						<div class="dynamicPreviewClasses formField__info">Lines = How many lines are shown for every 1 hour. Example: 4 lines = 15 min. per hr. 3 lines = 20 min per hr. Labels = Time increments that are labeled on the schedule. Example: 30 min. labels = 8:00, 8:30, 9:00, etc. shown.</div>
-
-						<select class="dynamicPreviewClasses formField__input" id="schedule">
-							<option value="430">4 Lines; 30 Minute Labels</option>
-							<option selected="selected" value="31">3 Lines; 1 Hour Labels</option>
-							<option value="230">2 Lines; 30 Minute Labels</option>
-							<option value="21">2 Lines; 1 Hour Labels</option>
-							<option value="no30">No Lines; 30 Minute Labels</option>
-							<option value="no1">No Lines; 1 Hour Labels</option>
-						</select>
-
-						<div class="dynamicPreviewClasses formField__title">Start Time</div>
-
-						<div class="dynamicPreviewClasses formField__info">15 hour schedule (with blank lines above start, below end).</div>
-
-						<select class="dynamicPreviewClasses formField__input" id="startTime">
-							<option value="5am">5 AM</option>
-							<option value="6am">6 AM</option>
-							<option selected="selected" value="7am">7 AM</option>
-							<option value="8am">8 AM</option>
-							<option value="9am">9 AM</option>
-							<option value="10am">10 AM</option>
-						</select>
-
-					</div>
 				</div>
 
-				<div id="weekendOptionsButton" class="dynamicPreviewClasses advancedOptions__title clickable">Weekend</div>
+				<div class="dynamicPreviewClasses hughes__dailyRightSchedule">
+				<!-- Right side daily schedule Image goes here -->
 
-					<div class="dynamicPreviewClasses weekend" id="weekendField">
+					<img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/hughes/dailyScheduleRight/31.png">
+
+				</div>
+			</div>
+
+			<div class="dynamicPreviewClasses hughes__weekend" id="weekendDiv">
 				
-						<div class="dynamicPreviewClasses formField__title">Weekend Style</div>
-
-						<div class="dynamicPreviewClasses formField__info">Full: Saturday and Sunday are the same as weekdays. 3/4: Saturday and Sunday are simplified versions of weekdays + sticky note area below. 1/2: Saturday and Sunday are simple + 2 columns (same size as Sat/Sun) + sticky note area below.</div>
-
-						<div class="dynamicPreviewClasses weekendStyle">
-
-							<select class="dynamicPreviewClasses formField__input" id="weekendStyle">
-								<option value="full">Full Weekend</option>
-								<option selected="selected" value="34">3/4 Weekend</option>
-								<option value="half">1/2 Weekend</option>
-							</select>
-
-						</div>
-						
-						<div class="dynamicPreviewClasses weekendColumns" id="weekendColumns">
-							<div class="dynamicPreviewClasses formField__title">1/2 Weekend Column Style</div>
-
-							<div class="dynamicPreviewClasses weekendColumnLeft" id="weekendColumnLeftDiv">
-
-								<div class="dynamicPreviewClasses formField__subtitle">Left Side</div>
-
-								<select class="dynamicPreviewClasses formField__input" id="weekendColumnLeft">
-									<option value="none">None</option>
-									<option value="bullets">Bullets</option>
-									<option value="checkboxes">Checkboxes</option>
-									<option value="reflection">Reflection</option>
-								</select>
-								
-							</div>
-
-							<div class="dynamicPreviewClasses weekendColumnRight" id="weekendColumnRightDiv">
-
-								<div class="dynamicPreviewClasses formField__subtitle">Right Side</div>
-
-								<select class="dynamicPreviewClasses formField__input" id="weekendColumnRight">
-									<option value="none">None</option>
-									<option value="bullets">Bullets</option>
-									<option value="checkboxes">Checkboxes</option>
-									<option value="reflection">Reflection</option>
-								</select>
-								
-							</div>
-						</div>
-
-						<div class="dynamicPreviewClasses formField__title" id="weekendStickyTitle">Sticky Note Style</div>	
-
-						<div class="dynamicPreviewClasses stickyNote" id="weekendSticky">
-
-							<select class="dynamicPreviewClasses formField__input" id="stickyNote">
-								<option value="blank">Blank</option>
-								<option selected="selected" value="lined">Lined</option>
-								<option value="grid">Grid</option>
-							</select>
-						</div>
-					</div>
-				<div id="commentsButton" class="dynamicPreviewClasses advancedOptions__title clickable">Comments for Mia</div>
-					<div class="dynamicPreviewClasses comments">
-						<div class="dynamicPreviewClasses formField__info">Please note, all aspects of a layout that can be customized are listed on the form, but you may list any details for us to address here.</div>
-						<textarea id="miaComments" class="dynamicPreviewClasses formField__input miaComments" name="comment">Enter text here...</textarea>
-						
-					</div>
+				<div id="weekendFullHeaderDiv" class="dynamicPreviewClasses hughes__fullWeekendHeader">
+					<!-- full weekend header Image goes here -->
+					<img class="dynamicPreviewClasses" id="weekendHeaderFull" src="images/hughes/dailyHeaderRight/none.png">
 				</div>
-			<div id="researchQuestionsButton" class="dynamicPreviewClasses formField__option clickable">Personality Questions</div>
-			
-				<div class="dynamicPreviewClasses optionalQuestions">
-					<div class="dynamicPreviewClasses myersBriggs">
-						<div class="dynamicPreviewClasses formField__title">Myers Briggs</div>
-						<div class="dynamicPreviewClasses formField__info">Please chose your Myers Briggs Personality Type</div>
-						<select class="dynamicPreviewClasses formField__input" id="myersBriggs">
-							<option value="idk">I'm Not Sure</option>
-							<option value="ISTJ">ISTJ</option>
-							<option value="ISFJ">ISFJ</option>
-							<option value="INFJ">INFJ</option>
-							<option value="INTJ">INTJ</option>
-							<option value="ISTP">ISTP</option>
-							<option value="ISFP">ISFP</option>
-							<option value="INFP">INFP</option>
-							<option value="INTP">INTP</option>
-							<option value="ESTP">ESTP</option>
-							<option value="ESFP">ESFP</option>
-							<option value="ENFP">ENFP</option>
-							<option value="ENTP">ENTP</option>
-							<option value="ESTJ">ESTJ</option>
-							<option value="ESFJ">ESFJ</option>
-							<option value="ENFJ">ENFJ</option>
-							<option value="ENTJ">ENTJ</option>
-						</select>
 
-					</div>
+				<div id="weekendFullScheduleDiv" class="dynamicPreviewClasses hughes__fullWeekendSchedule">
+					<!-- full weekend schedule Image goes here -->
+					<img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/hughes/dailyScheduleRight/31.png">
+				</div>
+				
 
-					<div class="dynamicPreviewClasses formField__title">Preferences</div>
+
+				<div class="dynamicPreviewClasses hughes__3-4weekend">
 					
-					<div class="dynamicPreviewClasses formField__info">Choose the option that best describes your normal behavior.</div>
+					<div id="weekend34HeaderDiv" class="dynamicPreviewClasses hughes__3-4weekendHeader">
+						<!-- 3/4 or 1/2 weekend header Image goes here -->
+						<img class="dynamicPreviewClasses" id="weekendHeader34" src="images/hughes/weekendHeader3-4/none.png">
 
-					<div class="dynamicPreviewClasses preferences">
-						<div class="dynamicPreviewClasses formField__info preferencesQuestion">I appear to be flexible, casual, and keep plans to a minimum. I like to deal with things as they come rather than over-preparing.</div>
-						<div class="dynamicPreviewClasses preferencesOptions">
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference1" value="strongDisagree"><br>Strongly Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference1" value="disagree"><br>Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference1" value="neutral"><br>Neutral</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference1" value="agree"><br>Agree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference1" value="strongAgree"><br>Strongly Agree</label>
+					</div>
+
+					<div id="weekend34ScheduleDiv" class="dynamicPreviewClasses hughes__3-4weekendSchedule">
+						<!-- 3/4 weekend schedule Image goes here -->
+						<img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/hughes/weekendSchedule3-4/31.png">
+						
+					</div>
+
+					<div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses hughes__1-2weekendSchedule">
+						<!-- 1/2 weekend schedule Image goes here -->
+						<img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/hughes/weekendSchedule1-2/31.png">
+					</div>
+
+					<div id="weekend12ColumnsDiv" class="dynamicPreviewClasses hughes__1-2columns">
+						<div class="dynamicPreviewClasses hughes__1-2columnLeft" id="hughes__1-2columnLeft">
+							<!-- 1/2 weekend left column Image goes here -->
+							<img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/hughes/weekendColumn1-2/bullets.png">
+						</div>
+
+						<div class="dynamicPreviewClasses hughes__1-2columnRight" id="hughes__1-2columnRight">
+							<!-- 1/2 weekend right column Image goes here -->
+							<img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/hughes/weekendColumn1-2/reflection.png">
 						</div>
 					</div>
 
-					<div class="dynamicPreviewClasses preferences">
-						<div class="dynamicPreviewClasses formField__info preferencesQuestion">I talk about day-to-day life and what's happening right now, more often than conceptual ideas or what could be.</div>
-						<div class="dynamicPreviewClasses preferencesOptions">
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference2" value="strongDisagree"><br>Strongly Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference2" value="disagree"><br>Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference2" value="neutral"><br>Neutral</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference2" value="agree"><br>Agree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference2" value="strongAgree"><br>Strongly Agree</label>
-						</div>
-					</div>
-
-					<div class="dynamicPreviewClasses preferences">
-						<div class="dynamicPreviewClasses formField__info preferencesQuestion">I would find it very difficult to fire someone I was close to, even if they were consistently underperforming.</div>
-						<div class="dynamicPreviewClasses preferencesOptions">
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference3" value="strongDisagree"><br>Strongly Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference3" value="disagree"><br>Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference3" value="neutral"><br>Neutral</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference3" value="agree"><br>Agree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference3" value="strongAgree"><br>Strongly Agree</label>
-						</div>	
-					</div>
-
-					<div class="dynamicPreviewClasses preferences">
-						<div class="dynamicPreviewClasses formField__info preferencesQuestion">Even if I try to be proactive, I can never get things done without the pressure of its deadline.</div>
-						<div class="dynamicPreviewClasses preferencesOptions lastPreference">
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference4" value="strongDisagree"><br>Strongly Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference4" value="disagree"><br>Disagree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference4" value="neutral"><br>Neutral</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference4" value="agree"><br>Agree</label>
-							<label class="dynamicPreviewClasses preferenceAnswer"><input type="radio" name="preference4" value="strongAgree"><br>Strongly Agree</label>
-						</div>
-					</div>
-
-					<div class="dynamicPreviewClasses formField__title">Gallup Strengths</div>
-
-					<div class="dynamicPreviewClasses formField__info">If you have taken the Gallup StrengthsFinder 1.0 or 2.0, list your top 5. If you do not remember all 5, you may enter any you do know.</div>
-
-					<textarea class="dynamicPreviewClasses gallupStrengths" name="gallupStrengths">Enter Gallup Strengths here...</textarea>
-
-					<div class="dynamicPreviewClasses formField__title">Occupation and Commitments</div>
-
-						<div class="dynamicPreviewClasses formField__info">Select all that apply</div>
-
-						<div><input type="checkbox" name="occupation" value="studentUG">Student (Undergraduate)</div>
-						<div><input type="checkbox" name="occupation" value="studentGrad">Student (Graduate/Further Education)</div>
-						<div><input type="checkbox" name="occupation" value="fulltimeJob">Full-Time Job</div>
-						<div><input type="checkbox" name="occupation" value="parttimeJob">Part-Time Job</div>
-						<div><input type="checkbox" name="occupation" value="parent">Parent</div>
-						<div><input type="checkbox" name="occupation" value="athlete">Athlete</div>
 				</div>
 
-		</div>
+				<div id="weekendNoteDiv" class="dynamicPreviewClasses hughes__weekendNote">
+					<!-- 3/4 or 1/2 weekend notes Image goes here -->
 
-		<div class="dynamicPreviewClasses submit">
-			<input class="dynamicPreviewClasses submitButton" type="button" name="submit" Value="Submit">
+						<img class="dynamicPreviewClasses" id="weekendNote" src="images/hughes/weekendNotes/lined.png">
+
+				</div>
+			</div>
 		</div>
-	
-	</div>	
+	</div>
 </div>
-
-
-</body>
-</html>
