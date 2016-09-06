@@ -6721,7 +6721,7 @@ window.addEventListener("load", function(){
 		});
 	} else if (productTitle.innerHTML == "Rathje") {
 
-		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses rathje__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/rathje/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses rathje__dashboard" id="dashboard"><div class="dynamicPreviewClasses rathje__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/rathje/quote/yesBlank.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/rathje/dashSection1/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/rathje/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/rathje/dashSection3/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/rathje/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses rathje__dailyLeft" id="rathje__dailyLeft"><div class="dynamicPreviewClasses rathje__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/rathje/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses rathje__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/rathje/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses rathje__dailyRight" id="rathje__dailyRight"><div class="dynamicPreviewClasses rathje__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1R" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/rathje/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses rathje__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses rathje__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses rathje__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses rathje__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/rathje/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses rathje__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses rathje__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/rathje/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses rathje__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/rathje/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses rathje__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/rathje/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses rathje__1-2columns"><div class="dynamicPreviewClasses rathje__1-2columnLeft" id="rathje__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/rathje/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses rathje__1-2columnRight" id="rathje__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/rathje/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses rathje__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/rathje/weekendNotes/lined.png"></div></div></div></div></div>';		
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses rathje__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/rathje/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses rathje__dashboard" id="dashboard"><div class="dynamicPreviewClasses rathje__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/rathje/quote/yesBlank.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/rathje/dashSection1/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/rathje/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/rathje/dashSection3/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/rathje/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses rathje__dailyLeft" id="rathje__dailyLeft"><div class="dynamicPreviewClasses rathje__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/rathje/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses rathje__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/rathje/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses rathje__dailyRight" id="rathje__dailyRight"><div class="dynamicPreviewClasses rathje__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/rathje/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses rathje__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses rathje__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses rathje__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses rathje__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/rathje/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses rathje__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses rathje__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/rathje/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses rathje__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/rathje/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses rathje__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/rathje/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses rathje__1-2columns"><div class="dynamicPreviewClasses rathje__1-2columnLeft" id="rathje__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/rathje/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses rathje__1-2columnRight" id="rathje__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/rathje/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses rathje__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/rathje/weekendNotes/lined.png"></div></div></div></div></div>';		
 	
 		//Planner image manipulation operations
 	//Images to be manipulated
@@ -7242,9 +7242,9 @@ window.addEventListener("load", function(){
 				weekendNote.src = "../assets/images/rathje/weekendNotes/grid.png";
 			}		
 		});
-	} else if (productTitle.innerHTML == "Gaines") {
+	} else if (productTitle.innerHTML == "Miller") {
 
-		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses gaines__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/gaines/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses gaines__dashboard" id="dashboard"><div class="dynamicPreviewClasses gaines__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/gaines/quote/yesBlank.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/gaines/dashSection1/none.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/gaines/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/gaines/dashSection3/none.png"></div><div class="dynamicPreviewClasses gaines__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/gaines/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses gaines__dailyLeft" id="gaines__dailyLeft"><div class="dynamicPreviewClasses gaines__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/gaines/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses gaines__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/gaines/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses gaines__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/gaines/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses gaines__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/gaines/headerRight.png"></div><div class="dynamicPreviewClasses contentRight">	<div class="dynamicPreviewClasses gaines__dailyRight"  id="gaines__dailyRight"><div class="dynamicPreviewClasses gaines__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1R" src="images/gaines/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses gaines__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/gaines/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses gaines__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/gaines/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses gaines__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses gaines__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/gaines/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses gaines__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/gaines/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses gaines__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/gaines/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses gaines__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses gaines__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/gaines/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses gaines__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/gaines/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv"  class="dynamicPreviewClasses gaines__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/gaines/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses gaines__1-2columns"><div class="dynamicPreviewClasses gaines__1-2columnLeft" id="gaines__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/gaines/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses gaines__1-2columnRight" id="gaines__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/gaines/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses gaines__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/gaines/weekendNotes/lined.png"></div></div></div></div></div>';
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses miller__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/miller/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses miller__dashboard" id="dashboard"><div class="dynamicPreviewClasses miller__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/miller/quote/yesBlank.png"></div><div class="dynamicPreviewClasses miller__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/miller/dashSection1/none.png"></div><div class="dynamicPreviewClasses miller__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/miller/dashSection1/checkboxes.png"></div></div><div class="dynamicPreviewClasses miller__dailyLeft" id="miller__dailyLeft"><div class="dynamicPreviewClasses miller__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/miller/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses miller__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/miller/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses miller__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/miller/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses miller__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/miller/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses miller__dailyRight" id="miller__dailyRight"><div class="dynamicPreviewClasses miller__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/miller/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses miller__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/miller/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses miller__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/miller/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses miller__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses miller__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/miller/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses miller__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/miller/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses miller__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/miller/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses miller__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses miller__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/miller/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses miller__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/miller/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses miller__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/miller/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses miller__1-2columns"><div class="dynamicPreviewClasses miller__1-2columnLeft" id="miller__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/miller/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses miller__1-2columnRight" id="miller__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/miller/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses miller__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/miller/weekendNotes/lined.png"></div></div></div></div></div>';
 
 		//Planner image manipulation operations
 	//Images to be manipulated
@@ -7336,13 +7336,13 @@ window.addEventListener("load", function(){
 			quote.addEventListener("change", function(){		
 				var i = quote.options[quote.selectedIndex].value;
 				if (i === "YesBlank") {
-					dashQuote.src = "images/gaines/quote/yesBlank.png";
+					dashQuote.src = "images/miller/quote/yesBlank.png";
 				} else if (i === "YesAll") {
-					dashQuote.src = "images/gaines/quote/yesAllQuotes.png";
+					dashQuote.src = "images/miller/quote/yesAllQuotes.png";
 				} else if (i === "YesHalf") {
-					dashQuote.src = "images/gaines/quote/yesHalf.png";
+					dashQuote.src = "images/miller/quote/yesHalf.png";
 				} else if (i === "NoLines") {
-					dashQuote.src = "images/gaines/quote/noLines.png";
+					dashQuote.src = "images/miller/quote/noLines.png";
 				}
 			});
 
@@ -7365,13 +7365,13 @@ window.addEventListener("load", function(){
 			section1Symbol.addEventListener("change", function(){		
 				var i = section1SymbolValue.options[section1SymbolValue.selectedIndex].value;
 				if (i === "none") {
-					dashSection1.src = "images/gaines/dashSection1/none.png";
+					dashSection1.src = "images/miller/dashSection1/none.png";
 				} else if (i === "bullets") {
-					dashSection1.src = "images/gaines/dashSection1/bullets.png";
+					dashSection1.src = "images/miller/dashSection1/bullets.png";
 				} else if (i === "checkboxes") {
-					dashSection1.src = "images/gaines/dashSection1/checkboxes.png";
+					dashSection1.src = "images/miller/dashSection1/checkboxes.png";
 				} else if (i === "week") {
-					dashSection1.src = "images/gaines/dashSection1/mon-sun.png";
+					dashSection1.src = "images/miller/dashSection1/mon-sun.png";
 				}
 			});
 
@@ -7394,11 +7394,11 @@ window.addEventListener("load", function(){
 			section2Symbol.addEventListener("change", function(){		
 				var i = section2SymbolValue.options[section2SymbolValue.selectedIndex].value;
 				if (i === "checkboxes") {
-					dashSection2.src = "images/gaines/dashSection2/checkboxes.png";
+					dashSection2.src = "images/miller/dashSection2/checkboxes.png";
 				} else if (i === "none") {
-					dashSection2.src = "images/gaines/dashSection2/none.png";
+					dashSection2.src = "images/miller/dashSection2/none.png";
 				} else if (i === "bullets") {
-					dashSection2.src = "images/gaines/dashSection2/bullets.png";
+					dashSection2.src = "images/miller/dashSection2/bullets.png";
 				} 
 			});
 
@@ -7421,11 +7421,11 @@ window.addEventListener("load", function(){
 			section3Symbol.addEventListener("change", function(){		
 				var i = section3SymbolValue.options[section3SymbolValue.selectedIndex].value;
 				if (i === "none") {
-					dashSection3.src = "images/gaines/dashSection3/none.png";
+					dashSection3.src = "images/miller/dashSection3/none.png";
 				} else if (i === "bullets") {
-					dashSection3.src = "images/gaines/dashSection3/bullets.png";
+					dashSection3.src = "images/miller/dashSection3/bullets.png";
 				} else if (i === "checkboxes") {
-					dashSection3.src = "images/gaines/dashSection3/checkboxes.png";
+					dashSection3.src = "images/miller/dashSection3/checkboxes.png";
 				}
 			});
 
@@ -7448,11 +7448,11 @@ window.addEventListener("load", function(){
 			section4Symbol.addEventListener("change", function(){		
 				var i = section4SymbolValue.options[section4SymbolValue.selectedIndex].value;
 				if (i === "none") {
-					dashSection4.src = "images/gaines/dashSection4/none.png";
+					dashSection4.src = "images/miller/dashSection4/none.png";
 				} else if (i === "bullets") {
-					dashSection4.src = "images/gaines/dashSection4/bullets.png";
+					dashSection4.src = "images/miller/dashSection4/bullets.png";
 				} else if (i === "checkboxes") {
-					dashSection4.src = "images/gaines/dashSection4/checkboxes.png";
+					dashSection4.src = "images/miller/dashSection4/checkboxes.png";
 				}
 			});
 
@@ -7488,25 +7488,25 @@ window.addEventListener("load", function(){
 			header1Symbol.addEventListener("change", function(){		
 				var i = header1SymbolValue.options[header1SymbolValue.selectedIndex].value;
 				if (i === "None") {
-					weekdayHeader1L.src = "../assets/images/gaines/dailyHeaderLeft/none.png";
-					weekdayHeader1R.src = "../assets/images/gaines/dailyHeaderRight/none.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/none.png";
-					weekendHeaderFull1.src = "../assets/images/gaines/dailyHeaderRight/none.png";
+					weekdayHeader1L.src = "../assets/images/miller/dailyHeaderLeft/none.png";
+					weekdayHeader1R.src = "../assets/images/miller/dailyHeaderRight/none.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/none.png";
+					weekendHeaderFull1.src = "../assets/images/miller/dailyHeaderRight/none.png";
 				} else if (i === "Bullets") {
-					weekdayHeader1L.src = "../assets/images/gaines/dailyHeaderLeft/bullets.png";
-					weekdayHeader1R.src = "../assets/images/gaines/dailyHeaderRight/bullets.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/bullets.png";
-					weekendHeaderFull1.src = "../assets/images/gaines/dailyHeaderRight/bullets.png";
+					weekdayHeader1L.src = "../assets/images/miller/dailyHeaderLeft/bullets.png";
+					weekdayHeader1R.src = "../assets/images/miller/dailyHeaderRight/bullets.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/bullets.png";
+					weekendHeaderFull1.src = "../assets/images/miller/dailyHeaderRight/bullets.png";
 				} else if (i === "Checkboxes") {
-					weekdayHeader1L.src = "../assets/images/gaines/dailyHeaderLeft/checkboxes.png";
-					weekdayHeader1R.src = "../assets/images/gaines/dailyHeaderRight/checkboxes.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/checkboxes.png";
-					weekendHeaderFull1.src = "../assets/images/gaines/dailyHeaderRight/checkboxes.png";
+					weekdayHeader1L.src = "../assets/images/miller/dailyHeaderLeft/checkboxes.png";
+					weekdayHeader1R.src = "../assets/images/miller/dailyHeaderRight/checkboxes.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/checkboxes.png";
+					weekendHeaderFull1.src = "../assets/images/miller/dailyHeaderRight/checkboxes.png";
 				} else if (i === "Sun-Mon") {
-					weekdayHeader1L.src = "../assets/images/gaines/dailyHeaderLeft/week.png";
-					weekdayHeader1R.src = "../assets/images/gaines/dailyHeaderRight/week.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/week.png";
-					weekendHeaderFull1.src = "../assets/images/gaines/dailyHeaderRight/week.png";
+					weekdayHeader1L.src = "../assets/images/miller/dailyHeaderLeft/week.png";
+					weekdayHeader1R.src = "../assets/images/miller/dailyHeaderRight/week.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/week.png";
+					weekendHeaderFull1.src = "../assets/images/miller/dailyHeaderRight/week.png";
 				}
 			});
 
@@ -7537,25 +7537,25 @@ window.addEventListener("load", function(){
 			header2Symbol.addEventListener("change", function(){		
 				var i = header2SymbolValue.options[header2SymbolValue.selectedIndex].value;
 				if (i === "None") {
-					weekdayHeader2L.src = "../assets/images/gaines/dailyHeaderLeft/none.png";
-					weekdayHeader2R.src = "../assets/images/gaines/dailyHeaderRight/none.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/none.png";
-					weekendHeaderFull2.src = "../assets/images/gaines/dailyHeaderRight/none.png";
+					weekdayHeader2L.src = "../assets/images/miller/dailyHeaderLeft/none.png";
+					weekdayHeader2R.src = "../assets/images/miller/dailyHeaderRight/none.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/none.png";
+					weekendHeaderFull2.src = "../assets/images/miller/dailyHeaderRight/none.png";
 				} else if (i === "Bullets") {
-					weekdayHeader2L.src = "../assets/images/gaines/dailyHeaderLeft/bullets.png";
-					weekdayHeader2R.src = "../assets/images/gaines/dailyHeaderRight/bullets.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/bullets.png";
-					weekendHeaderFull2.src = "../assets/images/gaines/dailyHeaderRight/bullets.png";
+					weekdayHeader2L.src = "../assets/images/miller/dailyHeaderLeft/bullets.png";
+					weekdayHeader2R.src = "../assets/images/miller/dailyHeaderRight/bullets.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/bullets.png";
+					weekendHeaderFull2.src = "../assets/images/miller/dailyHeaderRight/bullets.png";
 				} else if (i === "Checkboxes") {
-					weekdayHeader2L.src = "../assets/images/gaines/dailyHeaderLeft/checkboxes.png";
-					weekdayHeader2R.src = "../assets/images/gaines/dailyHeaderRight/checkboxes.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/checkboxes.png";
-					weekendHeaderFull2.src = "../assets/images/gaines/dailyHeaderRight/checkboxes.png";
+					weekdayHeader2L.src = "../assets/images/miller/dailyHeaderLeft/checkboxes.png";
+					weekdayHeader2R.src = "../assets/images/miller/dailyHeaderRight/checkboxes.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/checkboxes.png";
+					weekendHeaderFull2.src = "../assets/images/miller/dailyHeaderRight/checkboxes.png";
 				} else if (i === "Sun-Mon") {
-					weekdayHeader2L.src = "../assets/images/gaines/dailyHeaderLeft/week.png";
-					weekdayHeader2R.src = "../assets/images/gaines/dailyHeaderRight/week.png";
-					weekendHeader34.src = "../assets/images/gaines/weekendHeader3-4/week.png";
-					weekendHeaderFull2.src = "../assets/images/gaines/dailyHeaderRight/week.png";
+					weekdayHeader2L.src = "../assets/images/miller/dailyHeaderLeft/week.png";
+					weekdayHeader2R.src = "../assets/images/miller/dailyHeaderRight/week.png";
+					weekendHeader34.src = "../assets/images/miller/weekendHeader3-4/week.png";
+					weekendHeaderFull2.src = "../assets/images/miller/dailyHeaderRight/week.png";
 				}
 			});
 
@@ -7576,34 +7576,34 @@ window.addEventListener("load", function(){
 			schedule.addEventListener("change", function(){		
 				var i = scheduleValue.options[scheduleValue.selectedIndex].value;
 				if (i === "4 Lines; 30 Minute Labels") {
-					weekdayScheduleL.src = "../assets/images/gaines/dailyScheduleLeft/430.png";
-					weekdayScheduleR.src = "../assets/images/gaines/dailyScheduleRight/430.png";
-					weekendSchedule34.src = "../assets/images/gaines/weekendSchedule3-4/430.png";
+					weekdayScheduleL.src = "../assets/images/miller/dailyScheduleLeft/430.png";
+					weekdayScheduleR.src = "../assets/images/miller/dailyScheduleRight/430.png";
+					weekendSchedule34.src = "../assets/images/miller/weekendSchedule3-4/430.png";
 					weekendScheduleFull.src = weekdayScheduleR.src;
 				} else if (i === "3 Lines; 1 Hour Labels") {
-					weekdayScheduleL.src = "../assets/images/gaines/dailyScheduleLeft/31.png";
-					weekdayScheduleR.src = "../assets/images/gaines/dailyScheduleRight/31.png";
-					weekendSchedule34.src = "../assets/images/gaines/weekendSchedule3-4/31.png";
+					weekdayScheduleL.src = "../assets/images/miller/dailyScheduleLeft/31.png";
+					weekdayScheduleR.src = "../assets/images/miller/dailyScheduleRight/31.png";
+					weekendSchedule34.src = "../assets/images/miller/weekendSchedule3-4/31.png";
 					weekendScheduleFull.src = weekdayScheduleR.src;
 				} else if (i === "2 Lines; 30 Minute Labels") {
-					weekdayScheduleL.src = "../assets/images/gaines/dailyScheduleLeft/230.png";
-					weekdayScheduleR.src = "../assets/images/gaines/dailyScheduleRight/230.png";
-					weekendSchedule34.src = "../assets/images/gaines/weekendSchedule3-4/230.png";
+					weekdayScheduleL.src = "../assets/images/miller/dailyScheduleLeft/230.png";
+					weekdayScheduleR.src = "../assets/images/miller/dailyScheduleRight/230.png";
+					weekendSchedule34.src = "../assets/images/miller/weekendSchedule3-4/230.png";
 					weekendScheduleFull.src = weekdayScheduleR.src;
 				} else if (i === "2 Lines; 1 Hour Labels") {
-					weekdayScheduleL.src = "../assets/images/gaines/dailyScheduleLeft/21.png";
-					weekdayScheduleR.src = "../assets/images/gaines/dailyScheduleRight/21.png";
-					weekendSchedule34.src = "../assets/images/gaines/weekendSchedule3-4/21.png";
+					weekdayScheduleL.src = "../assets/images/miller/dailyScheduleLeft/21.png";
+					weekdayScheduleR.src = "../assets/images/miller/dailyScheduleRight/21.png";
+					weekendSchedule34.src = "../assets/images/miller/weekendSchedule3-4/21.png";
 					weekendScheduleFull.src = weekdayScheduleR.src;
 				} else if (i === "No Lines; 30 Minute Labels") {
-					weekdayScheduleL.src = "../assets/images/gaines/dailyScheduleLeft/no30.png";
-					weekdayScheduleR.src = "../assets/images/gaines/dailyScheduleRight/no30.png";
-					weekendSchedule34.src = "../assets/images/gaines/weekendSchedule3-4/no30.png";
+					weekdayScheduleL.src = "../assets/images/miller/dailyScheduleLeft/no30.png";
+					weekdayScheduleR.src = "../assets/images/miller/dailyScheduleRight/no30.png";
+					weekendSchedule34.src = "../assets/images/miller/weekendSchedule3-4/no30.png";
 					weekendScheduleFull.src = weekdayScheduleR.src;
 				} else if (i === "No Lines; 1 Hour Labels") {
-					weekdayScheduleL.src = "../assets/images/gaines/dailyScheduleLeft/no1.png";
-					weekdayScheduleR.src = "../assets/images/gaines/dailyScheduleRight/no1.png";
-					weekendSchedule34.src = "../assets/images/gaines/weekendSchedule3-4/no1.png";
+					weekdayScheduleL.src = "../assets/images/miller/dailyScheduleLeft/no1.png";
+					weekdayScheduleR.src = "../assets/images/miller/dailyScheduleRight/no1.png";
+					weekendSchedule34.src = "../assets/images/miller/weekendSchedule3-4/no1.png";
 					weekendScheduleFull.src = weekdayScheduleR.src;
 				}
 			});
@@ -7688,35 +7688,35 @@ window.addEventListener("load", function(){
 			weekendHalfSchedule.addEventListener("change", function(){		
 				var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
 				if (i === "None") {
-					weekendSchedule12.src = "../assets/images/gaines/weekendSchedule1-2/none.png";
+					weekendSchedule12.src = "../assets/images/miller/weekendSchedule1-2/none.png";
 				} else if (i === "AM/PM") {
-					weekendSchedule12.src = "../assets/images/gaines/weekendSchedule1-2/ampm.png";
+					weekendSchedule12.src = "../assets/images/miller/weekendSchedule1-2/ampm.png";
 				} 
 			});
 
 			weekendColumnLeft.addEventListener("change", function(){		
 				var i = weekendColumnLeftValue.options[weekendColumnLeftValue.selectedIndex].value;
 				if (i === "None") {
-					weekend12ColumnL.src = "../assets/images/gaines/weekendColumn1-2/none.png";
+					weekend12ColumnL.src = "../assets/images/miller/weekendColumn1-2/none.png";
 				} else if (i === "Bullets") {
-					weekend12ColumnL.src = "../assets/images/gaines/weekendColumn1-2/bullets.png";
+					weekend12ColumnL.src = "../assets/images/miller/weekendColumn1-2/bullets.png";
 				} else if (i === "Checkboxes") {
-					weekend12ColumnL.src = "../assets/images/gaines/weekendColumn1-2/checkboxes.png";
+					weekend12ColumnL.src = "../assets/images/miller/weekendColumn1-2/checkboxes.png";
 				} else if (i === "Reflection") {
-					weekend12ColumnL.src = "../assets/images/gaines/weekendColumn1-2/reflection.png";
+					weekend12ColumnL.src = "../assets/images/miller/weekendColumn1-2/reflection.png";
 				}
 			});
 
 			weekendColumnRight.addEventListener("change", function(){		
 				var i = weekendColumnRightValue.options[weekendColumnRightValue.selectedIndex].value;
 				if (i === "None") {
-					weekend12ColumnR.src = "../assets/images/gaines/weekendColumn1-2/none.png";
+					weekend12ColumnR.src = "../assets/images/miller/weekendColumn1-2/none.png";
 				} else if (i === "Bullets") {
-					weekend12ColumnR.src = "../assets/images/gaines/weekendColumn1-2/bullets.png";
+					weekend12ColumnR.src = "../assets/images/miller/weekendColumn1-2/bullets.png";
 				} else if (i === "Checkboxes") {
-					weekend12ColumnR.src = "../assets/images/gaines/weekendColumn1-2/checkboxes.png";
+					weekend12ColumnR.src = "../assets/images/miller/weekendColumn1-2/checkboxes.png";
 				} else if (i === "Reflection") {
-					weekend12ColumnR.src = "../assets/images/gaines/weekendColumn1-2/reflection.png";
+					weekend12ColumnR.src = "../assets/images/miller/weekendColumn1-2/reflection.png";
 				}
 			});
 
@@ -7747,11 +7747,11 @@ window.addEventListener("load", function(){
 			stickyNote.addEventListener("change", function(){		
 				var i = stickyNoteValue.options[stickyNoteValue.selectedIndex].value;
 				if (i === "Lined") {
-					weekendNote.src = "../assets/images/gaines/weekendNotes/lined.png";
+					weekendNote.src = "../assets/images/miller/weekendNotes/lined.png";
 				} else if (i === "Blank") {
-					weekendNote.src = "../assets/images/gaines/weekendNotes/blank.png";
+					weekendNote.src = "../assets/images/miller/weekendNotes/blank.png";
 				} else if (i === "Grid") {
-					weekendNote.src = "../assets/images/gaines/weekendNotes/grid.png";
+					weekendNote.src = "../assets/images/miller/weekendNotes/grid.png";
 				}		
 			});
 	//Other form fields capturing data not previewed in images
