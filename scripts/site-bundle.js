@@ -6721,7 +6721,7 @@ window.addEventListener("load", function(){
 		});
 	} else if (productTitle.innerHTML == "Rathje") {
 
-		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses rathje__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/rathje/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses rathje__dashboard" id="dashboard"><div class="dynamicPreviewClasses rathje__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/rathje/quote/yesBlank.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/rathje/dashSection1/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/rathje/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/rathje/dashSection3/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/rathje/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses rathje__dailyLeft" id="rathje__dailyLeft"><div class="dynamicPreviewClasses rathje__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/rathje/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses rathje__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/rathje/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses rathje__dailyRight" id="rathje__dailyRight"><div class="dynamicPreviewClasses rathje__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/rathje/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses rathje__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses rathje__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses rathje__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses rathje__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/rathje/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses rathje__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses rathje__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/rathje/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses rathje__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/rathje/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses rathje__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/rathje/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses rathje__1-2columns"><div class="dynamicPreviewClasses rathje__1-2columnLeft" id="rathje__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/rathje/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses rathje__1-2columnRight" id="rathje__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/rathje/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses rathje__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/rathje/weekendNotes/lined.png"></div></div></div></div></div>';		
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses rathje__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/rathje/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses rathje__dashboard" id="dashboard"><div class="dynamicPreviewClasses rathje__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/rathje/quote/yesBlank.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/rathje/dashSection1/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/rathje/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/rathje/dashSection3/none.png"></div><div class="dynamicPreviewClasses rathje__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/rathje/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses rathje__dailyLeft" id="rathje__dailyLeft"><div class="dynamicPreviewClasses rathje__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/rathje/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses rathje__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/rathje/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses rathje__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/rathje/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses rathje__dailyRight" id="rathje__dailyRight"><div class="dynamicPreviewClasses rathje__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1R" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/rathje/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses rathje__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/rathje/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses rathje__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses rathje__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses rathje__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/rathje/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses rathje__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/rathje/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses rathje__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses rathje__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/rathje/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses rathje__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/rathje/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses rathje__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/rathje/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses rathje__1-2columns"><div class="dynamicPreviewClasses rathje__1-2columnLeft" id="rathje__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/rathje/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses rathje__1-2columnRight" id="rathje__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/rathje/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses rathje__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/rathje/weekendNotes/lined.png"></div></div></div></div></div>';		
 	
 		//Planner image manipulation operations
 	//Images to be manipulated
@@ -6760,30 +6760,30 @@ window.addEventListener("load", function(){
 
 	//Fields that can manipulate
 		//Dashboard Images
-		var quote = document.getElementById("select-yui_3_17_2_1_1473154390035_235445");
-		var section1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_236515");
-		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_239364");
-		var section2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_241386");
-		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_244124");
-		var section3Text = document.getElementById("text-yui_3_17_2_1_1473154390035_246474");
-		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_249566");
-		var section3SubText1 = document.getElementById("text-yui_3_17_2_1_1473154390035_253121");
-		var section3SubText2 = document.getElementById("text-yui_3_17_2_1_1473154390035_256980");
-		var section4Text = document.getElementById("text-yui_3_17_2_1_1473154390035_258293");
-		var section4Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_262363");
+		var quote = document.getElementById("select-yui_3_17_2_1_1473154390035_476318");
+		var section1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_477388");
+		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_479625");
+		var section2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_481644");
+		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_484469");
+		var section3Text = document.getElementById("text-yui_3_17_2_1_1473154390035_486828");
+		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_489349");
+		var section4Text = document.getElementById("text-yui_3_17_2_1_1473154390035_490602");
+		var section4Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_492747");
 		// //Weekday Images
-		var overview = document.getElementById("select-yui_3_17_2_1_1473154390035_265570");
-		var header1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_272163");
-		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_276692");
-		var header2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_280270");
-		var header2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_285053");
-		var daily = document.getElementById("select-yui_3_17_2_1_1473154390035_288937");
+		var overview = document.getElementById("select-yui_3_17_2_1_1473154390035_495225");
+		var header1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_498426");
+		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_502680");
+		var header2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_505617");
+		var header2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_508335");
+		// var daily = document.getElementById("select-yui_3_17_2_1_1473154390035_288937");
+		var schedule = document.getElementById("select-yui_3_17_2_1_1473154390035_509904");
+		var startTime = document.getElementById("select-yui_3_17_2_1_1473154390035_514157");
 		// //Weekend Images
-		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1473154390035_292991");
+		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1473154390035_518437");
 		// var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1473154390035_198630");
-		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1473154390035_306014");
-		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1473154390035_314756");
-		var stickyNote = document.getElementById("select-yui_3_17_2_1_1473154390035_318014");
+		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1473154390035_530740");
+		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1473154390035_534109");
+		var stickyNote = document.getElementById("select-yui_3_17_2_1_1473154390035_537881");
 
 	//Input Values
 		var quoteValue = quote.children[1];
@@ -6793,7 +6793,8 @@ window.addEventListener("load", function(){
 		var section4SymbolValue = section4Symbol.children[1];
 		var header1SymbolValue = header1Symbol.children[1];
 		var header2SymbolValue = header2Symbol.children[1];
-		var dailyValue = daily.children[1];
+		var scheduleValue = schedule.children[2];
+		// var dailyValue = daily.children[1];
 		var weekendStyleValue = weekendStyle.children[1];
 		// var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
 		var weekendColumnLeftValue = weekendColumnLeft.children[2];
@@ -6891,22 +6892,6 @@ window.addEventListener("load", function(){
 		});
 
 		section3Symbol.addEventListener("mouseout", function(){
-			dashSection3.style.outline = "none";
-		});
-
-		section3SubText1.addEventListener("mouseover", function(){
-			dashSection3.style.outline = "solid 2px red";
-		});
-
-		section3SubText1.addEventListener("mouseout", function(){
-			dashSection3.style.outline = "none";
-		});
-
-		section3SubText2.addEventListener("mouseover", function(){
-			dashSection3.style.outline = "solid 2px red";
-		});
-
-		section3SubText2.addEventListener("mouseout", function(){
 			dashSection3.style.outline = "none";
 		});
 
@@ -7046,21 +7031,21 @@ window.addEventListener("load", function(){
 			}
 		});
 
-		daily.addEventListener("mouseover", function(){
+		schedule.addEventListener("mouseover", function(){
 			weekdayScheduleL.style.outline = "solid 2px red";
 			weekdayScheduleR.style.outline = "solid 2px red";
 			weekendSchedule34.style.outline = "solid 2px red";
 			weekendScheduleFull.style.outline = "solid 2px red";
 		});
 
-		daily.addEventListener("mouseout", function(){
+		schedule.addEventListener("mouseout", function(){
 			weekdayScheduleL.style.outline = "none";
 			weekdayScheduleR.style.outline = "none";
 			weekendSchedule34.style.outline = "none";
 			weekendScheduleFull.style.outline = "none";
 		});
 
-		daily.addEventListener("change", function(){		
+		schedule.addEventListener("change", function(){		
 			var i = dailyValue.options[dailyValue.selectedIndex].value;
 			if (i === "4 Lines; 30 min. labels") {
 				weekdayScheduleL.src = "../assets/images/rathje/dailyScheduleLeft/430.png";
@@ -7244,7 +7229,7 @@ window.addEventListener("load", function(){
 		});
 	} else if (productTitle.innerHTML == "Miller") {
 
-		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses miller__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/miller/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses miller__dashboard" id="dashboard"><div class="dynamicPreviewClasses miller__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/miller/quote/yesBlank.png"></div><div class="dynamicPreviewClasses miller__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/miller/dashSection1/none.png"></div><div class="dynamicPreviewClasses miller__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/miller/dashSection1/checkboxes.png"></div></div><div class="dynamicPreviewClasses miller__dailyLeft" id="miller__dailyLeft"><div class="dynamicPreviewClasses miller__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/miller/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses miller__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/miller/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses miller__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/miller/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses miller__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/miller/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses miller__dailyRight" id="miller__dailyRight"><div class="dynamicPreviewClasses miller__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/miller/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses miller__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/miller/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses miller__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/miller/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses miller__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses miller__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/miller/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses miller__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/miller/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses miller__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/miller/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses miller__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses miller__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/miller/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses miller__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/miller/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses miller__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/miller/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses miller__1-2columns"><div class="dynamicPreviewClasses miller__1-2columnLeft" id="miller__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/miller/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses miller__1-2columnRight" id="miller__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/miller/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses miller__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/miller/weekendNotes/lined.png"></div></div></div></div></div>';
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses miller__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/miller/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses miller__dashboard" id="dashboard"><div class="dynamicPreviewClasses miller__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/miller/quote/yesBlank.png"></div><div class="dynamicPreviewClasses miller__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/miller/dashSection1/none.png"></div><div class="dynamicPreviewClasses miller__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/miller/dashSection1/checkboxes.png"></div></div><div class="dynamicPreviewClasses miller__dailyLeft" id="miller__dailyLeft"><div class="dynamicPreviewClasses miller__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/miller/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses miller__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/miller/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses miller__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/miller/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses miller__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/miller/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses miller__dailyRight" id="miller__dailyRight"><div class="dynamicPreviewClasses miller__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1R" src="images/miller/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses miller__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/miller/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses miller__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/miller/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses miller__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses miller__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/miller/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses miller__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/miller/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses miller__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/miller/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses miller__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses miller__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/miller/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses miller__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/miller/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses miller__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/miller/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses miller__1-2columns"><div class="dynamicPreviewClasses miller__1-2columnLeft" id="miller__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/miller/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses miller__1-2columnRight" id="miller__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/miller/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses miller__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/miller/weekendNotes/lined.png"></div></div></div></div></div>';
 
 		//Planner image manipulation operations
 	//Images to be manipulated
@@ -7283,47 +7268,44 @@ window.addEventListener("load", function(){
 
 	//Fields that can manipulate
 		//Dashboard Images
-		var quote = document.getElementById("select-yui_3_17_2_1_1473105904096_222346");
-		var section1Text = document.getElementById("text-yui_3_17_2_1_1473105904096_227731");
-		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1473105904096_232685");
-		var section2Text = document.getElementById("text-yui_3_17_2_1_1473105904096_239793");
-		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1473105904096_246763");
-		var section3Text = document.getElementById("text-yui_3_17_2_1_1473105904096_253189");
-		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1473105904096_277169");
-		var section4Text = document.getElementById("text-yui_3_17_2_1_1473105904096_259403");
-		var section4Symbol = document.getElementById("select-yui_3_17_2_1_1473105904096_266688");
+		var quote = document.getElementById("select-yui_3_17_2_1_1473154390035_359374");
+		var section1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_360440");
+		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_362919");
+		var section1SubText1 = document.getElementById("text-yui_3_17_2_1_1473154390035_365160");
+		var section1SubText2 = document.getElementById("text-yui_3_17_2_1_1473154390035_367238");
+		var section2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_368396");
+		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_371630");
+		
 		//Weekday Images
-		var overview = document.getElementById("select-yui_3_17_2_1_1473105904096_286339");
-		var header1Text = document.getElementById("text-yui_3_17_2_1_1473105904096_299172");
-		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1473105904096_308572");
-		var header2Text = document.getElementById("text-yui_3_17_2_1_1473105904096_322688");
-		var header2Symbol = document.getElementById("select-yui_3_17_2_1_1473105904096_335516");
-		var schedule = document.getElementById("select-yui_3_17_2_1_1473105904096_350508");
-		var startTime = document.getElementById("select-yui_3_17_2_1_1473105904096_370866");
+		var overview = document.getElementById("select-yui_3_17_2_1_1473154390035_374202");
+		var header1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_378587");
+		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_382252");
+		var header2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_385217");
+		var header2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_389329");
+		var schedule = document.getElementById("select-yui_3_17_2_1_1473154390035_392142");
+		var startTime = document.getElementById("select-yui_3_17_2_1_1473154390035_395776");
 		//Weekend Images
-		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1473105904096_386063");
-		var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1473105904096_418353");
-		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1473105904096_432654");
-		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1473105904096_456716");
-		var stickyNote = document.getElementById("select-yui_3_17_2_1_1473105904096_462374");
+		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1473154390035_399817");
+		// var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1473105904096_418353");
+		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1473154390035_412713");
+		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1473154390035_418438");
+		var stickyNote = document.getElementById("select-yui_3_17_2_1_1473154390035_424461");
 
 	//Input Values
 		var quoteValue = quote.children[1];
 		var section1SymbolValue = section1Symbol.children[1];
 		var section2SymbolValue = section2Symbol.children[1];
-		var section3SymbolValue = section3Symbol.children[1];
-		var section4SymbolValue = section4Symbol.children[1];
 		var header1SymbolValue = header1Symbol.children[1];
 		var scheduleValue = schedule.children[2];
 		var weekendStyleValue = weekendStyle.children[2];
-		var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
+		// var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
 		var weekendColumnLeftValue = weekendColumnLeft.children[2];
 		var weekendColumnRightValue = weekendColumnRight.children[2];
 		var stickyNoteValue = stickyNote.children[2];
 
 			weekendColumnRight.style.display = "none";
 			weekendColumnLeft.style.display = "none";
-			weekendHalfSchedule.style.display = "none";
+			// weekendHalfSchedule.style.display = "none";
 
 			quote.addEventListener("mouseover", function(){
 				dashQuote.style.outline = "solid 2px red";
@@ -7351,6 +7333,22 @@ window.addEventListener("load", function(){
 			});
 
 			section1Text.addEventListener("mouseout", function(){
+				dashSection1.style.outline = "none";
+			});
+
+			section1SubText1.addEventListener("mouseover", function(){
+				dashSection1.style.outline = "solid 2px red";
+			});
+
+			section1SubText1.addEventListener("mouseout", function(){
+				dashSection1.style.outline = "none";
+			});
+
+			section1SubText2.addEventListener("mouseover", function(){
+				dashSection1.style.outline = "solid 2px red";
+			});
+
+			section1SubText2.addEventListener("mouseout", function(){
 				dashSection1.style.outline = "none";
 			});
 
@@ -7401,61 +7399,6 @@ window.addEventListener("load", function(){
 					dashSection2.src = "images/miller/dashSection2/bullets.png";
 				} 
 			});
-
-			section3Text.addEventListener("mouseover", function(){
-				dashSection3.style.outline = "solid 2px red";
-			});
-
-			section3Text.addEventListener("mouseout", function(){
-				dashSection3.style.outline = "none";
-			});
-
-			section3Symbol.addEventListener("mouseover", function(){
-				dashSection3.style.outline = "solid 2px red";
-			});
-
-			section3Symbol.addEventListener("mouseout", function(){
-				dashSection3.style.outline = "none";
-			});
-
-			section3Symbol.addEventListener("change", function(){		
-				var i = section3SymbolValue.options[section3SymbolValue.selectedIndex].value;
-				if (i === "none") {
-					dashSection3.src = "images/miller/dashSection3/none.png";
-				} else if (i === "bullets") {
-					dashSection3.src = "images/miller/dashSection3/bullets.png";
-				} else if (i === "checkboxes") {
-					dashSection3.src = "images/miller/dashSection3/checkboxes.png";
-				}
-			});
-
-			section4Text.addEventListener("mouseover", function(){
-				dashSection4.style.outline = "solid 2px red";
-			});
-
-			section4Text.addEventListener("mouseout", function(){
-				dashSection4.style.outline = "none";
-			});
-
-			section4Symbol.addEventListener("mouseover", function(){
-				dashSection4.style.outline = "solid 2px red";
-			});
-
-			section4Symbol.addEventListener("mouseout", function(){
-				dashSection4.style.outline = "none";
-			});
-
-			section4Symbol.addEventListener("change", function(){		
-				var i = section4SymbolValue.options[section4SymbolValue.selectedIndex].value;
-				if (i === "none") {
-					dashSection4.src = "images/miller/dashSection4/none.png";
-				} else if (i === "bullets") {
-					dashSection4.src = "images/miller/dashSection4/bullets.png";
-				} else if (i === "checkboxes") {
-					dashSection4.src = "images/miller/dashSection4/checkboxes.png";
-				}
-			});
-
 
 			header1Text.addEventListener("mouseover", function(){
 				weekdayHeader1L.style.outline = "solid 2px red";
@@ -7644,7 +7587,7 @@ window.addEventListener("load", function(){
 					weekendColumnRight.style.display = "none";
 					weekendColumnLeft.style.display = "none";
 					stickyNote.style.display = "none";
-					weekendHalfSchedule.style.display = "none";
+					// weekendHalfSchedule.style.display = "none";
 				} else if (i === "3/4 Weekend") {
 					weekendFullHeaderDiv1.style.display = "none";
 					weekendFullHeaderDiv2.style.display = "none";
@@ -7658,7 +7601,7 @@ window.addEventListener("load", function(){
 					weekendColumnRight.style.display = "none";
 					weekendColumnLeft.style.display = "none";
 					stickyNote.style.display = "block";
-					weekendHalfSchedule.style.display = "none";
+					// weekendHalfSchedule.style.display = "none";
 				} else if (i === "1/2 Weekend") {
 					weekendFullHeaderDiv1.style.display = "none";
 					weekendFullHeaderDiv2.style.display = "none";
@@ -7672,27 +7615,27 @@ window.addEventListener("load", function(){
 					weekendColumnRight.style.display = "block";
 					weekendColumnLeft.style.display = "block";
 					stickyNote.style.display = "block";
-					weekendHalfSchedule.style.display = "block";
+					// weekendHalfSchedule.style.display = "block";
 				}	
 			});
 
 
-			weekendHalfSchedule.addEventListener("mouseover", function(){
-				weekendSchedule12.style.outline = "solid 2px red";
-			});
+			// weekendHalfSchedule.addEventListener("mouseover", function(){
+			// 	weekendSchedule12.style.outline = "solid 2px red";
+			// });
 
-			weekendHalfSchedule.addEventListener("mouseout", function(){
-				weekendSchedule12.style.outline = "none";
-			});
+			// weekendHalfSchedule.addEventListener("mouseout", function(){
+			// 	weekendSchedule12.style.outline = "none";
+			// });
 
-			weekendHalfSchedule.addEventListener("change", function(){		
-				var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
-				if (i === "None") {
-					weekendSchedule12.src = "../assets/images/miller/weekendSchedule1-2/none.png";
-				} else if (i === "AM/PM") {
-					weekendSchedule12.src = "../assets/images/miller/weekendSchedule1-2/ampm.png";
-				} 
-			});
+			// weekendHalfSchedule.addEventListener("change", function(){		
+			// 	var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
+			// 	if (i === "None") {
+			// 		weekendSchedule12.src = "../assets/images/miller/weekendSchedule1-2/none.png";
+			// 	} else if (i === "AM/PM") {
+			// 		weekendSchedule12.src = "../assets/images/miller/weekendSchedule1-2/ampm.png";
+			// 	} 
+			// });
 
 			weekendColumnLeft.addEventListener("change", function(){		
 				var i = weekendColumnLeftValue.options[weekendColumnLeftValue.selectedIndex].value;
