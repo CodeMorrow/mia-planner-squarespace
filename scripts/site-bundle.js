@@ -6612,6 +6612,7 @@ window.addEventListener("load", function(){
 			} else if (i === "3/4 Weekend") {
 				weekendFullHeaderDiv1.style.display = "none";
 				weekendFullHeaderDiv2.style.display = "none";
+				weekendFullScheduleDiv.style.display = "none";
 				weekend34HeaderDiv.style.display = "block";
 				weekend34ScheduleDiv.style.display = "flex";
 				weekendNoteDiv.style.display = "block";
