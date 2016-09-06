@@ -6196,5 +6196,455 @@ window.addEventListener("load", function(){
 				weekendNote.src = "../assets/images/ellsworth/weekendNotes/grid.png";
 			}		
 		});
+	} else if (productTitle.innerHTML == "Glazer") {
+
+		dynamicPreview.innerHTML = '<div class="dynamicPreviewClasses planner"><div class="dynamicPreviewClasses glazer__left"><div class="dynamicPreviewClasses headerLeft"><img class="dynamicPreviewClasses" src="images/glazer/headerLeft.png"></div><div class="dynamicPreviewClasses contentLeft"><div class="dynamicPreviewClasses glazer__dashboard" id="dashboard"><div class="dynamicPreviewClasses glazer__dashboardQuote"><img class="dynamicPreviewClasses" id="dashQuote" src="images/glazer/quote/yesBlank.png"></div><div class="dynamicPreviewClasses glazer__dashboardSection1"><img class="dynamicPreviewClasses" id="dashSection1" src="images/glazer/dashSection1/none.png"></div><div class="dynamicPreviewClasses glazer__dashboardSection2"><img class="dynamicPreviewClasses" id="dashSection2" src="images/glazer/dashSection1/checkboxes.png"></div><div class="dynamicPreviewClasses glazer__dashboardSection3"><img class="dynamicPreviewClasses" id="dashSection3" src="images/glazer/dashSection3/none.png"></div><div class="dynamicPreviewClasses glazer__dashboardSection4"><img class="dynamicPreviewClasses" id="dashSection4" src="images/glazer/dashSection4/none.png"></div></div><div class="dynamicPreviewClasses glazer__dailyLeft" id="glazer__dailyLeft"><div class="dynamicPreviewClasses glazer__dailyLeftHeader1"><img class="dynamicPreviewClasses" id="weekdayHeader1L" src="images/glazer/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses glazer__dailyLeftHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2L" src="images/glazer/dailyHeaderLeft/none.png"></div><div class="dynamicPreviewClasses glazer__dailyLeftSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleL" src="images/glazer/dailyScheduleLeft/31.png"></div></div></div></div><div class="dynamicPreviewClasses glazer__right"><div class="dynamicPreviewClasses headerRight"><img class="dynamicPreviewClasses" src="images/glazer/headerRight.png"></div><div class="dynamicPreviewClasses contentRight"><div class="dynamicPreviewClasses glazer__dailyRight" id="glazer__dailyRight"><div class="dynamicPreviewClasses glazer__dailyRightHeader1"><img class="dynamicPreviewClasses" id="weekdayHeaderR" src="images/glazer/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses glazer__dailyRightHeader2"><img class="dynamicPreviewClasses" id="weekdayHeader2R" src="images/glazer/dailyHeaderRight/none.png"></div><div class="dynamicPreviewClasses glazer__dailyRightSchedule"><img class="dynamicPreviewClasses" id="weekdayScheduleR" src="images/glazer/dailyScheduleRight/31.png"></div></div><div class="dynamicPreviewClasses glazer__weekend" id="weekendDiv"><div id="weekendFullHeaderDiv1" class="dynamicPreviewClasses glazer__fullWeekendHeader1"><img class="dynamicPreviewClasses" id="weekendHeaderFull1" src="images/glazer/dailyHeaderRight/none.png"></div><div id="weekendFullHeaderDiv2" class="dynamicPreviewClasses glazer__fullWeekendHeader2"><img class="dynamicPreviewClasses" id="weekendHeaderFull2" src="images/glazer/dailyHeaderRight/none.png"></div><div id="weekendFullScheduleDiv" class="dynamicPreviewClasses glazer__fullWeekendSchedule"><img class="dynamicPreviewClasses" id="weekendScheduleFull" src="images/glazer/dailyScheduleRight/31.png"></div><div class="dynamicPreviewClasses glazer__3-4weekend"><div id="weekend34HeaderDiv" class="dynamicPreviewClasses glazer__3-4weekendHeader"><img class="dynamicPreviewClasses" id="weekendHeader34" src="images/glazer/weekendHeader3-4/none.png"></div><div id="weekend34ScheduleDiv" class="dynamicPreviewClasses glazer__3-4weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule34" src="images/glazer/weekendSchedule3-4/31.png"></div><div id="weekend12ScheduleDiv" class="dynamicPreviewClasses glazer__1-2weekendSchedule"><img class="dynamicPreviewClasses" id="weekendSchedule12" src="images/glazer/weekendSchedule1-2/31.png"></div><div id="weekend12ColumnsDiv" class="dynamicPreviewClasses glazer__1-2columns"><div class="dynamicPreviewClasses glazer__1-2columnLeft" id="glazer__1-2columnLeft"><img class="dynamicPreviewClasses" id="weekend12ColumnL" src="images/glazer/weekendColumn1-2/bullets.png"></div><div class="dynamicPreviewClasses glazer__1-2columnRight" id="glazer__1-2columnRight"><img class="dynamicPreviewClasses" id="weekend12ColumnR" src="images/glazer/weekendColumn1-2/reflection.png"></div></div></div><div id="weekendNoteDiv" class="dynamicPreviewClasses glazer__weekendNote"><img class="dynamicPreviewClasses" id="weekendNote" src="images/glazer/weekendNotes/lined.png"></div></div></div></div></div>';		
+	
+		//Planner image manipulation operations
+	//Images to be manipulated
+		var dashQuote = document.getElementById("dashQuote");
+		var dashSection1 = document.getElementById("dashSection1");
+		var dashSection2 = document.getElementById("dashSection2");
+		var dashSection3 = document.getElementById("dashSection3");
+		var weekdayHeaderR = document.getElementById("weekdayHeaderR");
+		var weekdayHeaderL = document.getElementById("weekdayHeaderL");
+		var weekdayScheduleR = document.getElementById("weekdayScheduleR");
+		var weekdayScheduleL = document.getElementById("weekdayScheduleL");
+		var weekendHeaderFull = document.getElementById("weekendHeaderFull");
+		var weekendHeader34 = document.getElementById("weekendHeader34");
+		var weekendScheduleFull = document.getElementById("weekendScheduleFull");
+		var weekendSchedule34 = document.getElementById("weekendSchedule34");
+		var weekendSchedule12 = document.getElementById("weekendSchedule12");
+		var weekend12ColumnL = document.getElementById("weekend12ColumnL");
+		var weekend12ColumnR = document.getElementById("weekend12ColumnR");
+		var weekendNote = document.getElementById("weekendNote");
+	//Divs to be manipulated
+		var weekendFullHeaderDiv = document.getElementById("weekendFullHeaderDiv");
+		var weekendFullScheduleDiv = document.getElementById("weekendFullScheduleDiv");
+		var weekend34HeaderDiv = document.getElementById("weekend34HeaderDiv");
+		var weekend34ScheduleDiv = document.getElementById("weekend34ScheduleDiv");
+		var weekend12ScheduleDiv = document.getElementById("weekend12ScheduleDiv");
+		var weekend12ColumnsDiv = document.getElementById("weekend12ColumnsDiv");
+		var weekendDiv = document.getElementById("weekendDiv");
+		var weekendNoteDiv = document.getElementById("weekendNoteDiv");
+		var weekendColumns = document.getElementById("weekendColumns");
+		var weekendSticky = document.getElementById("weekendSticky");
+		var weekendStickyTitle = document.getElementById("weekendStickyTitle");
+
+	//Fields that can manipulate
+		//Dashboard Images
+		var quote = document.getElementById("select-yui_3_17_2_1_1473154390035_25140");
+		var section1Text = document.getElementById("textarea-yui_3_17_2_1_1473154390035_26807");
+		var section1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_29630");
+		var section2Text = document.getElementById("text-yui_3_17_2_1_1473154390035_31348");
+		var section2Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_33277");
+		var section3Text = document.getElementById("text-yui_3_17_2_1_1473154390035_35444");
+		var section3Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_37470");
+		var section4Text = document.getElementById("text-yui_3_17_2_1_1473154390035_39694");
+		var section4Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_41822");
+		// //Weekday Images
+		var overview = document.getElementById("select-yui_3_17_2_1_1473154390035_71350");
+		var header1Text = document.getElementById("text-yui_3_17_2_1_1473154390035_80682");
+		var header1Symbol = document.getElementById("select-yui_3_17_2_1_1473154390035_86262");
+		var schedule = document.getElementById("select-yui_3_17_2_1_1473154390035_89159");
+		var startTime = document.getElementById("select-yui_3_17_2_1_1473154390035_94600");
+		// //Weekend Images
+		var weekendStyle = document.getElementById("select-yui_3_17_2_1_1473154390035_98920");
+		var weekendHalfSchedule = document.getElementById("select-yui_3_17_2_1_1473154390035_198630");
+		var weekendColumnLeft = document.getElementById("select-yui_3_17_2_1_1473154390035_180111");
+		var weekendColumnRight = document.getElementById("select-yui_3_17_2_1_1473154390035_192879");
+		var stickyNote = document.getElementById("select-yui_3_17_2_1_1473154390035_114251");
+
+	//Input Values
+		var quoteValue = quote.children[1];
+		var section1SymbolValue = section1Symbol.children[1];
+		var section2SymbolValue = section2Symbol.children[1];
+		var header1SymbolValue = header1Symbol.children[1];
+		var scheduleValue = schedule.children[2];
+		var weekendStyleValue = weekendStyle.children[2];
+		var weekendHalfScheduleValue = weekendHalfSchedule.children[2];
+		var weekendColumnLeftValue = weekendColumnLeft.children[2];
+		var weekendColumnRightValue = weekendColumnRight.children[2];
+		var stickyNoteValue = stickyNote.children[2];
+			
+		quote.addEventListener("mouseover", function(){			
+			dashQuote.style.outline = "solid 2px red";
+		});
+
+		quote.addEventListener("mouseout", function(){
+			dashQuote.style.outline = "none";
+		});
+
+		quote.addEventListener('change', function(){
+
+			var i = quoteValue.options[quoteValue.selectedIndex].value;
+				if (i === "Blank") {
+					dashQuote.src = "../assets/images/ellsworth/quote/yesBlank.png";	
+				} else if (i === "All Quotes") {
+					dashQuote.src = "../assets/images/ellsworth/quote/yesAllQuotes.png";
+				} else if (i === "Half Quotes / Half Verses") {
+					dashQuote.src = "../assets/images/ellsworth/quote/verse.png";
+				}
+		});
+
+		section1Text.addEventListener("mouseover", function(){
+			dashSection1.style.outline = "solid 2px red";
+		});
+
+		section1Text.addEventListener("mouseout", function(){
+			dashSection1.style.outline = "none";
+		});
+
+		section1Symbol.addEventListener("mouseover", function(){
+			dashSection1.style.outline = "solid 2px red";
+		});
+
+		section1Symbol.addEventListener("mouseout", function(){
+			dashSection1.style.outline = "none";
+		});
+
+		section1Symbol.addEventListener("change", function(){		
+			var i = section1SymbolValue.options[section1SymbolValue.selectedIndex].value;
+			if (i === "None") {
+				dashSection1.src = "../assets/images/ellsworth/dashSection1/none.png";
+			} else if (i === "Bullets") {
+				dashSection1.src = "../assets/images/ellsworth/dashSection1/bullets.png";
+			} else if (i === "Checkboxes") {
+				dashSection1.src = "../assets/images/ellsworth/dashSection1/checkboxes.png";
+			} else if (i === "Mon-Sun") {
+				dashSection1.src = "../assets/images/ellsworth/dashSection1/mon-sun.png";
+			} else if (i === "Numbered") {
+				dashSection1.src = "../assets/images/ellsworth/dashSection1/numbers.png";
+			}
+		});
+
+		section2Text.addEventListener("mouseover", function(){
+			dashSection2.style.outline = "solid 2px red";
+		});
+
+		section2Text.addEventListener("mouseout", function(){
+			dashSection2.style.outline = "none";
+		});
+
+		section2Symbol.addEventListener("mouseover", function(){
+			dashSection2.style.outline = "solid 2px red";
+		});
+
+		section2Symbol.addEventListener("mouseout", function(){
+			dashSection2.style.outline = "none";
+		});
+
+		section2Symbol.addEventListener("change", function(){		
+			var i = section2SymbolValue.options[section2SymbolValue.selectedIndex].value;
+			if (i === "Checkboxes") {
+				dashSection2.src = "../assets/images/ellsworth/dashSection2/checkboxes.png";
+			} else if (i === "None") {
+				dashSection2.src = "../assets/images/ellsworth/dashSection2/none.png";
+			} else if (i === "Bullets") {
+				dashSection2.src = "../assets/images/ellsworth/dashSection2/bullets.png";
+			} 
+		});
+
+		section3Text.addEventListener("mouseover", function(){
+			dashSection3.style.outline = "solid 2px red";
+		});
+
+		section3Text.addEventListener("mouseout", function(){
+			dashSection3.style.outline = "none";
+		});
+
+		section3Symbol.addEventListener("mouseover", function(){
+			dashSection3.style.outline = "solid 2px red";
+		});
+
+		section3Symbol.addEventListener("mouseout", function(){
+			dashSection3.style.outline = "none";
+		});
+
+		section3Symbol.addEventListener("change", function(){		
+			var i = section3SymbolValue.options[section3SymbolValue.selectedIndex].value;
+			if (i === "Checkboxes") {
+				dashSection3.src = "../assets/images/ellsworth/dashSection3/checkboxes.png";
+			} else if (i === "None") {
+				dashSection3.src = "../assets/images/ellsworth/dashSection3/none.png";
+			} else if (i === "Bullets") {
+				dashSection3.src = "../assets/images/ellsworth/dashSection3/bullets.png";
+			} 
+		});
+
+		section4Text.addEventListener("mouseover", function(){
+			dashSection4.style.outline = "solid 2px red";
+		});
+
+		section4Text.addEventListener("mouseout", function(){
+			dashSection4.style.outline = "none";
+		});
+
+		section4Symbol.addEventListener("mouseover", function(){
+			dashSection4.style.outline = "solid 2px red";
+		});
+
+		section4Symbol.addEventListener("mouseout", function(){
+			dashSection4.style.outline = "none";
+		});
+
+		section4Symbol.addEventListener("change", function(){		
+			var i = section4SymbolValue.options[section4SymbolValue.selectedIndex].value;
+			if (i === "Checkboxes") {
+				dashSection4.src = "../assets/images/ellsworth/dashSection4/checkboxes.png";
+			} else if (i === "None") {
+				dashSection4.src = "../assets/images/ellsworth/dashSection4/none.png";
+			} else if (i === "Bullets") {
+				dashSection4.src = "../assets/images/ellsworth/dashSection4/bullets.png";
+			} 
+		});
+		
+		header1Text.addEventListener("mouseover", function(){
+			weekdayHeaderL.style.outline = "solid 2px red";
+			weekdayHeaderR.style.outline = "solid 2px red";
+			weekendHeader34.style.outline = "solid 2px red";
+			weekendHeaderFull.style.outline = "solid 2px red";
+		});
+
+		header1Text.addEventListener("mouseout", function(){
+			weekdayHeaderL.style.outline = "none";
+			weekdayHeaderR.style.outline = "none";
+			weekendHeader34.style.outline = "none";
+			weekendHeaderFull.style.outline = "none";
+		});
+
+		header1Symbol.addEventListener("mouseover", function(){
+			weekdayHeaderL.style.outline = "solid 2px red";
+			weekdayHeaderR.style.outline = "solid 2px red";
+			weekendHeader34.style.outline = "solid 2px red";
+			weekendHeaderFull.style.outline = "solid 2px red";
+		});
+
+		header1Symbol.addEventListener("mouseout", function(){
+			weekdayHeaderL.style.outline = "none";
+			weekdayHeaderR.style.outline = "none";
+			weekendHeader34.style.outline = "none";
+			weekendHeaderFull.style.outline = "none";
+		});
+
+		header1Symbol.addEventListener("change", function(){		
+			var i = header1SymbolValue.options[header1SymbolValue.selectedIndex].value;
+			if (i === "None") {
+				weekdayHeaderL.src = "../assets/images/ellsworth/dailyHeaderLeft/none.png";
+				weekdayHeaderR.src = "../assets/images/ellsworth/dailyHeaderRight/none.png";
+				weekendHeader34.src = "../assets/images/ellsworth/weekendHeader3-4/none.png";
+				weekendHeaderFull.src = "../assets/images/ellsworth/dailyHeaderRight/none.png";
+			} else if (i === "Bullets") {
+				weekdayHeaderL.src = "../assets/images/ellsworth/dailyHeaderLeft/bullets.png";
+				weekdayHeaderR.src = "../assets/images/ellsworth/dailyHeaderRight/bullets.png";
+				weekendHeader34.src = "../assets/images/ellsworth/weekendHeader3-4/bullets.png";
+				weekendHeaderFull.src = "../assets/images/ellsworth/dailyHeaderRight/bullets.png";
+			} else if (i === "Checkboxes") {
+				weekdayHeaderL.src = "../assets/images/ellsworth/dailyHeaderLeft/checkboxes.png";
+				weekdayHeaderR.src = "../assets/images/ellsworth/dailyHeaderRight/checkboxes.png";
+				weekendHeader34.src = "../assets/images/ellsworth/weekendHeader3-4/checkboxes.png";
+				weekendHeaderFull.src = "../assets/images/ellsworth/dailyHeaderRight/checkboxes.png";
+			} else if (i === "Sun-Mon") {
+				weekdayHeaderL.src = "../assets/images/ellsworth/dailyHeaderLeft/week.png";
+				weekdayHeaderR.src = "../assets/images/ellsworth/dailyHeaderRight/week.png";
+				weekendHeader34.src = "../assets/images/ellsworth/weekendHeader3-4/week.png";
+				weekendHeaderFull.src = "../assets/images/ellsworth/dailyHeaderRight/week.png";
+			}
+		});
+
+		schedule.addEventListener("mouseover", function(){
+			weekdayScheduleL.style.outline = "solid 2px red";
+			weekdayScheduleR.style.outline = "solid 2px red";
+			weekendSchedule34.style.outline = "solid 2px red";
+			weekendScheduleFull.style.outline = "solid 2px red";
+		});
+
+		schedule.addEventListener("mouseout", function(){
+			weekdayScheduleL.style.outline = "none";
+			weekdayScheduleR.style.outline = "none";
+			weekendSchedule34.style.outline = "none";
+			weekendScheduleFull.style.outline = "none";
+		});
+
+		schedule.addEventListener("change", function(){		
+			var i = scheduleValue.options[scheduleValue.selectedIndex].value;
+			if (i === "4 Lines; 30 min. labels") {
+				weekdayScheduleL.src = "../assets/images/ellsworth/dailyScheduleLeft/430.png";
+				weekdayScheduleR.src = "../assets/images/ellsworth/dailyScheduleRight/430.png";
+				weekendSchedule34.src = "../assets/images/ellsworth/weekendSchedule3-4/430.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "3 Lines; 1 hour labels") {
+				weekdayScheduleL.src = "../assets/images/ellsworth/dailyScheduleLeft/31.png";
+				weekdayScheduleR.src = "../assets/images/ellsworth/dailyScheduleRight/31.png";
+				weekendSchedule34.src = "../assets/images/ellsworth/weekendSchedule3-4/31.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "2 Lines; 30 min. labels") {
+				weekdayScheduleL.src = "../assets/images/ellsworth/dailyScheduleLeft/230.png";
+				weekdayScheduleR.src = "../assets/images/ellsworth/dailyScheduleRight/230.png";
+				weekendSchedule34.src = "../assets/images/ellsworth/weekendSchedule3-4/230.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "2 Lines; 1 Hour labels") {
+				weekdayScheduleL.src = "../assets/images/ellsworth/dailyScheduleLeft/21.png";
+				weekdayScheduleR.src = "../assets/images/ellsworth/dailyScheduleRight/21.png";
+				weekendSchedule34.src = "../assets/images/ellsworth/weekendSchedule3-4/21.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "No Lines; 30 min. labels") {
+				weekdayScheduleL.src = "../assets/images/ellsworth/dailyScheduleLeft/no30.png";
+				weekdayScheduleR.src = "../assets/images/ellsworth/dailyScheduleRight/no30.png";
+				weekendSchedule34.src = "../assets/images/ellsworth/weekendSchedule3-4/no30.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			} else if (i === "No Lines; 1 Hour labels") {
+				weekdayScheduleL.src = "../assets/images/ellsworth/dailyScheduleLeft/no1.png";
+				weekdayScheduleR.src = "../assets/images/ellsworth/dailyScheduleRight/no1.png";
+				weekendSchedule34.src = "../assets/images/ellsworth/weekendSchedule3-4/no1.png";
+				weekendScheduleFull.src = weekdayScheduleR.src;
+			}
+		});
+
+		startTime.addEventListener("mouseover", function(){
+			weekdayScheduleL.style.outline = "solid 2px red";
+			weekdayScheduleR.style.outline = "solid 2px red";
+		});
+
+		startTime.addEventListener("mouseout", function(){
+			weekdayScheduleL.style.outline = "none";
+			weekdayScheduleR.style.outline = "none";
+		});
+
+		weekendStyle.addEventListener("mouseover", function(){
+			weekendSchedule34.style.outline = "solid 2px red";
+			weekendSchedule12.style.outline = "solid 2px red";
+			weekendScheduleFull.style.outline = "solid 2px red";
+		});
+
+		weekendStyle.addEventListener("mouseout", function(){
+			weekendSchedule34.style.outline = "none";
+			weekendSchedule12.style.outline = "none";
+			weekendScheduleFull.style.outline = "none";
+		});
+
+		weekendStyle.addEventListener("change", function(){		
+			var i = weekendStyleValue.options[weekendStyleValue.selectedIndex].value;
+			if (i === "Full Weekend") {
+				weekendFullHeaderDiv.style.display = "block";
+				weekendFullScheduleDiv.style.display = "block";
+				weekend34HeaderDiv.style.display = "none";
+				weekend34ScheduleDiv.style.display = "none";
+				weekendNoteDiv.style.display = "none";			
+				weekend12ScheduleDiv.style.display = "none";
+				weekend12ColumnsDiv.style.display = "none";
+				weekendColumnRight.style.display = "none";
+				weekendColumnLeft.style.display = "none";
+				stickyNote.style.display = "none";
+				weekendHalfSchedule.style.display = "none";
+			} else if (i === "3/4 Weekend") {
+				weekendFullHeaderDiv.style.display = "none";
+				weekendFullScheduleDiv.style.display = "none";
+				weekend34HeaderDiv.style.display = "block";
+				weekend34ScheduleDiv.style.display = "flex";
+				weekendNoteDiv.style.display = "block";
+				weekendSchedule34.style.display = "flex";
+				weekend12ScheduleDiv.style.display = "none";
+				weekend12ColumnsDiv.style.display = "none";
+				weekendColumnRight.style.display = "none";
+				weekendColumnLeft.style.display = "none";
+				stickyNote.style.display = "block";
+				weekendHalfSchedule.style.display = "none";
+			} else if (i === "1/2 Weekend") {
+				weekendFullHeaderDiv.style.display = "none";
+				weekendFullScheduleDiv.style.display = "none";
+				weekend34HeaderDiv.style.display = "none";
+				weekend34ScheduleDiv.style.display = "none";
+				weekendSchedule34.style.display = "none";
+				weekendNoteDiv.style.display = "block";
+				weekend12ScheduleDiv.style.display = "block";
+				weekend12ColumnsDiv.style.display = "flex";
+				weekendColumnRight.style.display = "block";
+				weekendColumnLeft.style.display = "block";
+				stickyNote.style.display = "block";
+				weekendHalfSchedule.style.display = "block";
+			}	
+		});
+
+
+		weekendHalfSchedule.addEventListener("mouseover", function(){
+			weekendSchedule12.style.outline = "solid 2px red";
+		});
+
+		weekendHalfSchedule.addEventListener("mouseout", function(){
+			weekendSchedule12.style.outline = "none";
+		});
+
+		weekendHalfSchedule.addEventListener("change", function(){		
+			var i = weekendHalfScheduleValue.options[weekendHalfScheduleValue.selectedIndex].value;
+			if (i === "None") {
+				weekendSchedule12.src = "../assets/images/ellsworth/weekendSchedule1-2/none.png";
+			} else if (i === "AM/PM") {
+				weekendSchedule12.src = "../assets/images/ellsworth/weekendSchedule1-2/ampm.png";
+			} 
+		});
+
+		weekendColumnLeft.addEventListener("change", function(){
+
+			var i = weekendColumnLeftValue.options[weekendColumnLeftValue.selectedIndex].value;
+			if (i === "None") {
+				weekend12ColumnL.src = "../assets/images/ellsworth/weekendColumn1-2/none.png";
+			} else if (i === "Bullets") {
+				weekend12ColumnL.src = "../assets/images/ellsworth/weekendColumn1-2/bullets.png";
+			} else if (i === "Checkboxes") {
+				weekend12ColumnL.src = "../assets/images/ellsworth/weekendColumn1-2/checkboxes.png";
+			} else if (i === "Reflection") {
+				weekend12ColumnL.src = "../assets/images/ellsworth/weekendColumn1-2/reflection.png";
+			}
+		});
+
+		weekendColumnRight.addEventListener("change", function(){		
+			var i = weekendColumnRightValue.options[weekendColumnRightValue.selectedIndex].value;
+			if (i === "None") {
+				weekend12ColumnR.src = "../assets/images/ellsworth/weekendColumn1-2/none.png";
+			} else if (i === "Bullets") {
+				weekend12ColumnR.src = "../assets/images/ellsworth/weekendColumn1-2/bullets.png";
+			} else if (i === "Checkboxes") {
+				weekend12ColumnR.src = "../assets/images/ellsworth/weekendColumn1-2/checkboxes.png";
+			} else if (i === "Reflection") {
+				weekend12ColumnR.src = "../assets/images/ellsworth/weekendColumn1-2/reflection.png";
+			}
+		});
+
+		weekendColumnLeft.addEventListener("mouseover", function(){
+
+			weekend12ColumnL.style.outline = "solid 2px red";
+		});
+
+		weekendColumnLeft.addEventListener("mouseout", function(){
+			weekend12ColumnL.style.outline = "none";
+		});
+
+		weekendColumnRight.addEventListener("mouseover", function(){
+			weekend12ColumnR.style.outline = "solid 2px red";
+		});
+
+		weekendColumnRight.addEventListener("mouseout", function(){
+			weekend12ColumnR.style.outline = "none";
+		});
+
+		stickyNote.addEventListener("mouseover", function(){
+			weekendNote.style.outline = "solid 2px red";
+		});
+
+		stickyNote.addEventListener("mouseout", function(){
+			weekendNote.style.outline = "none";
+		});
+
+		stickyNote.addEventListener("change", function(){		
+			var i = stickyNoteValue.options[stickyNoteValue.selectedIndex].value;
+			if (i === "Lined") {
+				weekendNote.src = "../assets/images/ellsworth/weekendNotes/lined.png";
+			} else if (i === "Blank") {
+				weekendNote.src = "../assets/images/ellsworth/weekendNotes/blank.png";
+			} else if (i === "Grid") {
+				weekendNote.src = "../assets/images/ellsworth/weekendNotes/grid.png";
+			}		
+		});
 	}
 });
