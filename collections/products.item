@@ -21,7 +21,7 @@
          {.repeated section items}
            {.image?}
 
-           <div id="dynamicPreview">
+           <div id="dynamicPreview" class="dynamicPreview__container">
           	<!-- ############################ Dynamic Planner Preview ################################ -->
            </div>
 
